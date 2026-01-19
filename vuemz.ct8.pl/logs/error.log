@@ -1,0 +1,872 @@
+Error: Cannot find module 'express'
+Require stack:
+- /usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/app.js
+- /usr/local/lib/ruby/gems/3.2/gems/passenger-6.0.17/src/helper-scripts/node-loader.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+    at Module._load (node:internal/modules/cjs/loader:983:27)
+    at Module.require (node:internal/modules/cjs/loader:1230:19)
+    at Module.require (/usr/local/lib/ruby/gems/3.2/gems/passenger-6.0.17/src/helper-scripts/node-loader.js:98:25)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/app.js:3:17)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+    at Module.load (node:internal/modules/cjs/loader:1205:32)
+    at Module._load (node:internal/modules/cjs/loader:1021:12)
+Error: Cannot find module 'formidable'
+Require stack:
+- /usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/app.js
+- /usr/local/lib/ruby/gems/3.2/gems/passenger-6.0.17/src/helper-scripts/node-loader.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+    at Module._load (node:internal/modules/cjs/loader:983:27)
+    at Module.require (node:internal/modules/cjs/loader:1230:19)
+    at Module.require (/usr/local/lib/ruby/gems/3.2/gems/passenger-6.0.17/src/helper-scripts/node-loader.js:98:25)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/app.js:8:20)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+    at Module.load (node:internal/modules/cjs/loader:1205:32)
+    at Module._load (node:internal/modules/cjs/loader:1021:12)
+start serwera na porcie 3000
+Error: ENOENT: no such file or directory, stat '/usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs\static\index.html'
+start serwera na porcie 3000
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'static' is invalid encoding. Received 'encoding'
+    at assertEncoding (node:internal/fs/utils:163:11)
+    at getOptions (node:internal/fs/utils:340:5)
+    at Object.readdirSync (node:fs:1498:13)
+    at /usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/app.js:26:25
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at /usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:346:12)
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'static' is invalid encoding. Received 'encoding'
+    at assertEncoding (node:internal/fs/utils:163:11)
+    at getOptions (node:internal/fs/utils:340:5)
+    at Object.readdirSync (node:fs:1498:13)
+    at /usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/app.js:26:25
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at /usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/usr/home/NoobXXX890290/domains/vuemz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:346:12)
+start serwera na porcie 3000
+katalogi:  [
+  '1lesson-directives',
+  '2lesson-arrays-methods-computed',
+  '3lesson-events-methods',
+  '4lesson-forms-json',
+  '5lesson-components'
+]
+a
+[
+  [
+    '1lesson-directives',
+    [
+      '01start.html',
+      '02v-text.html',
+      '03v-once.html',
+      '04v-html.html',
+      '05v-bind.html',
+      '06v-model.html',
+      '07logic-in-curly-brackets.html'
+    ]
+  ],
+  [
+    '2lesson-arrays-methods-computed',
+    [
+      '01v-for.html',
+      '02v-for.html',
+      '03v-for.html',
+      '04-methods.html',
+      '05-computed.html',
+      '06-computed.html',
+      '07-methods_v-bind.html'
+    ]
+  ],
+  [
+    '3lesson-events-methods',
+    [
+      '01-events.html',
+      '02v-show.html',
+      '03v-on.html',
+      '04-disabled.html',
+      '05v-for.html',
+      '06-events-sort.html',
+      '07-template.html'
+    ]
+  ],
+  [
+    '4lesson-forms-json',
+    [
+      '01forms.html',
+      '02forms.html',
+      '03forms-cart.html',
+      '04form-cart_v2.html',
+      '05forms-template.html',
+      '06forms-json_from_server.html'
+    ]
+  ],
+  [
+    '5lesson-components',
+    [
+      '01components.html',
+      '02component-data.html',
+      '03component-props.html',
+      '04app-comp.html',
+      '05app-comp_v2.html',
+      '06app-comp_v3.html',
+      '07comp-app.html',
+      '08global-data.html',
+      '10comp-task_2.html',
+      '9component komunikacja.html'
+    ]
+  ]
+]
+start serwera na porcie 3000
+katalogi:  [
+  '1lesson-directives',
+  '2lesson-arrays-methods-computed',
+  '3lesson-events-methods',
+  '4lesson-forms-json',
+  '5lesson-components'
+]
+a
+[
+  [
+    '1lesson-directives',
+    [
+      '01start.html',
+      '02v-text.html',
+      '03v-once.html',
+      '04v-html.html',
+      '05v-bind.html',
+      '06v-model.html',
+      '07logic-in-curly-brackets.html'
+    ]
+  ],
+  [
+    '2lesson-arrays-methods-computed',
+    [
+      '01v-for.html',
+      '02v-for.html',
+      '03v-for.html',
+      '04-methods.html',
+      '05-computed.html',
+      '06-computed.html',
+      '07-methods_v-bind.html'
+    ]
+  ],
+  [
+    '3lesson-events-methods',
+    [
+      '01-events.html',
+      '02v-show.html',
+      '03v-on.html',
+      '04-disabled.html',
+      '05v-for.html',
+      '06-events-sort.html',
+      '07-template.html'
+    ]
+  ],
+  [
+    '4lesson-forms-json',
+    [
+      '01forms.html',
+      '02forms.html',
+      '03forms-cart.html',
+      '04form-cart_v2.html',
+      '05forms-template.html',
+      '06forms-json_from_server.html'
+    ]
+  ],
+  [
+    '5lesson-components',
+    [
+      '01components.html',
+      '02component-data.html',
+      '03component-props.html',
+      '04app-comp.html',
+      '05app-comp_v2.html',
+      '06app-comp_v3.html',
+      '07comp-app.html',
+      '08global-data.html',
+      '10comp-task_2.html',
+      '9component komunikacja.html'
+    ]
+  ]
+]
+katalogi:  [
+  '1lesson-directives',
+  '2lesson-arrays-methods-computed',
+  '3lesson-events-methods',
+  '4lesson-forms-json',
+  '5lesson-components'
+]
+a
+[
+  [
+    '1lesson-directives',
+    [
+      '01start.html',
+      '02v-text.html',
+      '03v-once.html',
+      '04v-html.html',
+      '05v-bind.html',
+      '06v-model.html',
+      '07logic-in-curly-brackets.html'
+    ]
+  ],
+  [
+    '2lesson-arrays-methods-computed',
+    [
+      '01v-for.html',
+      '02v-for.html',
+      '03v-for.html',
+      '04-methods.html',
+      '05-computed.html',
+      '06-computed.html',
+      '07-methods_v-bind.html'
+    ]
+  ],
+  [
+    '3lesson-events-methods',
+    [
+      '01-events.html',
+      '02v-show.html',
+      '03v-on.html',
+      '04-disabled.html',
+      '05v-for.html',
+      '06-events-sort.html',
+      '07-template.html'
+    ]
+  ],
+  [
+    '4lesson-forms-json',
+    [
+      '01forms.html',
+      '02forms.html',
+      '03forms-cart.html',
+      '04form-cart_v2.html',
+      '05forms-template.html',
+      '06forms-json_from_server.html'
+    ]
+  ],
+  [
+    '5lesson-components',
+    [
+      '01components.html',
+      '02component-data.html',
+      '03component-props.html',
+      '04app-comp.html',
+      '05app-comp_v2.html',
+      '06app-comp_v3.html',
+      '07comp-app.html',
+      '08global-data.html',
+      '10comp-task_2.html',
+      '9component komunikacja.html'
+    ]
+  ]
+]
+start serwera na porcie 3000
+katalogi:  [
+  '1lesson-directives',
+  '2lesson-arrays-methods-computed',
+  '3lesson-events-methods',
+  '4lesson-forms-json',
+  '5lesson-components'
+]
+a
+[
+  [
+    '1lesson-directives',
+    [
+      '01start.html',
+      '02v-text.html',
+      '03v-once.html',
+      '04v-html.html',
+      '05v-bind.html',
+      '06v-model.html',
+      '07logic-in-curly-brackets.html'
+    ]
+  ],
+  [
+    '2lesson-arrays-methods-computed',
+    [
+      '01v-for.html',
+      '02v-for.html',
+      '03v-for.html',
+      '04-methods.html',
+      '05-computed.html',
+      '06-computed.html',
+      '07-methods_v-bind.html'
+    ]
+  ],
+  [
+    '3lesson-events-methods',
+    [
+      '01-events.html',
+      '02v-show.html',
+      '03v-on.html',
+      '04-disabled.html',
+      '05v-for.html',
+      '06-events-sort.html',
+      '07-template.html'
+    ]
+  ],
+  [
+    '4lesson-forms-json',
+    [
+      '01forms.html',
+      '02forms.html',
+      '03forms-cart.html',
+      '04form-cart_v2.html',
+      '05forms-template.html',
+      '06forms-json_from_server.html'
+    ]
+  ],
+  [
+    '5lesson-components',
+    [
+      '01components.html',
+      '02component-data.html',
+      '03component-props.html',
+      '04app-comp.html',
+      '05app-comp_v2.html',
+      '06app-comp_v3.html',
+      '07comp-app.html',
+      '08global-data.html',
+      '10comp-task_2.html',
+      '9component komunikacja.html'
+    ]
+  ]
+]
+start serwera na porcie 3000
+start serwera na porcie 3000
+katalogi:  [
+  '1lesson-directives',
+  '2lesson-arrays-methods-computed',
+  '3lesson-events-methods',
+  '4lesson-forms-json',
+  '5lesson-components'
+]
+a
+[
+  [
+    '1lesson-directives',
+    [
+      '01start.html',
+      '02v-text.html',
+      '03v-once.html',
+      '04v-html.html',
+      '05v-bind.html',
+      '06v-model.html',
+      '07logic-in-curly-brackets.html'
+    ]
+  ],
+  [
+    '2lesson-arrays-methods-computed',
+    [
+      '01v-for.html',
+      '02v-for.html',
+      '03v-for.html',
+      '04-methods.html',
+      '05-computed.html',
+      '06-computed.html',
+      '07-methods_v-bind.html'
+    ]
+  ],
+  [
+    '3lesson-events-methods',
+    [
+      '01-events.html',
+      '02v-show.html',
+      '03v-on.html',
+      '04-disabled.html',
+      '05v-for.html',
+      '06-events-sort.html',
+      '07-template.html'
+    ]
+  ],
+  [
+    '4lesson-forms-json',
+    [
+      '01forms.html',
+      '02forms.html',
+      '03forms-cart.html',
+      '04form-cart_v2.html',
+      '05forms-template.html',
+      '06forms-json_from_server.html'
+    ]
+  ],
+  [
+    '5lesson-components',
+    [
+      '01components.html',
+      '02component-data.html',
+      '03component-props.html',
+      '04app-comp.html',
+      '05app-comp_v2.html',
+      '06app-comp_v3.html',
+      '07comp-app.html',
+      '08global-data.html',
+      '10comp-task_2.html',
+      '9component komunikacja.html'
+    ]
+  ]
+]
+katalogi:  [
+  '1lesson-directives',
+  '2lesson-arrays-methods-computed',
+  '3lesson-events-methods',
+  '4lesson-forms-json',
+  '5lesson-components'
+]
+a
+[
+  [
+    '1lesson-directives',
+    [
+      '01start.html',
+      '02v-text.html',
+      '03v-once.html',
+      '04v-html.html',
+      '05v-bind.html',
+      '06v-model.html',
+      '07logic-in-curly-brackets.html'
+    ]
+  ],
+  [
+    '2lesson-arrays-methods-computed',
+    [
+      '01v-for.html',
+      '02v-for.html',
+      '03v-for.html',
+      '04-methods.html',
+      '05-computed.html',
+      '06-computed.html',
+      '07-methods_v-bind.html'
+    ]
+  ],
+  [
+    '3lesson-events-methods',
+    [
+      '01-events.html',
+      '02v-show.html',
+      '03v-on.html',
+      '04-disabled.html',
+      '05v-for.html',
+      '06-events-sort.html',
+      '07-template.html'
+    ]
+  ],
+  [
+    '4lesson-forms-json',
+    [
+      '01forms.html',
+      '02forms.html',
+      '03forms-cart.html',
+      '04form-cart_v2.html',
+      '05forms-template.html',
+      '06forms-json_from_server.html'
+    ]
+  ],
+  [
+    '5lesson-components',
+    [
+      '01components.html',
+      '02component-data.html',
+      '03component-props.html',
+      '04app-comp.html',
+      '05app-comp_v2.html',
+      '06app-comp_v3.html',
+      '07comp-app.html',
+      '08global-data.html',
+      '10comp-task_2.html',
+      '9component komunikacja.html'
+    ]
+  ]
+]
+start serwera na porcie 3000
+start serwera na porcie 3000
+katalogi:  [
+  '1lesson-directives',
+  '2lesson-arrays-methods-computed',
+  '3lesson-events-methods',
+  '4lesson-forms-json',
+  '5lesson-components'
+]
+a
+[
+  [
+    '1lesson-directives',
+    [
+      '01start.html',
+      '02v-text.html',
+      '03v-once.html',
+      '04v-html.html',
+      '05v-bind.html',
+      '06v-model.html',
+      '07logic-in-curly-brackets.html'
+    ]
+  ],
+  [
+    '2lesson-arrays-methods-computed',
+    [
+      '01v-for.html',
+      '02v-for.html',
+      '03v-for.html',
+      '04-methods.html',
+      '05-computed.html',
+      '06-computed.html',
+      '07-methods_v-bind.html'
+    ]
+  ],
+  [
+    '3lesson-events-methods',
+    [
+      '01-events.html',
+      '02v-show.html',
+      '03v-on.html',
+      '04-disabled.html',
+      '05v-for.html',
+      '06-events-sort.html',
+      '07-template.html'
+    ]
+  ],
+  [
+    '4lesson-forms-json',
+    [
+      '01forms.html',
+      '02forms.html',
+      '03forms-cart.html',
+      '04form-cart_v2.html',
+      '05forms-template.html',
+      '06forms-json_from_server.html'
+    ]
+  ],
+  [
+    '5lesson-components',
+    [
+      '01components.html',
+      '02component-data.html',
+      '03component-props.html',
+      '04app-comp.html',
+      '05app-comp_v2.html',
+      '06app-comp_v3.html',
+      '07comp-app.html',
+      '08global-data.html',
+      '10comp-task_2.html',
+      '9component komunikacja.html'
+    ]
+  ]
+]
+start serwera na porcie 3000
+katalogi:  [
+  '1lesson-directives',
+  '2lesson-arrays-methods-computed',
+  '3lesson-events-methods',
+  '4lesson-forms-json',
+  '5lesson-components'
+]
+a
+[
+  [
+    '1lesson-directives',
+    [
+      '01start.html',
+      '02v-text.html',
+      '03v-once.html',
+      '04v-html.html',
+      '05v-bind.html',
+      '06v-model.html',
+      '07logic-in-curly-brackets.html'
+    ]
+  ],
+  [
+    '2lesson-arrays-methods-computed',
+    [
+      '01v-for.html',
+      '02v-for.html',
+      '03v-for.html',
+      '04-methods.html',
+      '05-computed.html',
+      '06-computed.html',
+      '07-methods_v-bind.html'
+    ]
+  ],
+  [
+    '3lesson-events-methods',
+    [
+      '01-events.html',
+      '02v-show.html',
+      '03v-on.html',
+      '04-disabled.html',
+      '05v-for.html',
+      '06-events-sort.html',
+      '07-template.html'
+    ]
+  ],
+  [
+    '4lesson-forms-json',
+    [
+      '01forms.html',
+      '02forms.html',
+      '03forms-cart.html',
+      '04form-cart_v2.html',
+      '05forms-template.html',
+      '06forms-json_from_server.html'
+    ]
+  ],
+  [
+    '5lesson-components',
+    [
+      '01components.html',
+      '02component-data.html',
+      '03component-props.html',
+      '04app-comp.html',
+      '05app-comp_v2.html',
+      '06app-comp_v3.html',
+      '07comp-app.html',
+      '08global-data.html',
+      '10comp-task_2.html',
+      '9component komunikacja.html'
+    ]
+  ]
+]
+start serwera na porcie 3000
+katalogi:  [
+  '1lesson-directives',
+  '2lesson-arrays-methods-computed',
+  '3lesson-events-methods',
+  '4lesson-forms-json',
+  '5lesson-components'
+]
+a
+[
+  [
+    '1lesson-directives',
+    [
+      '01start.html',
+      '02v-text.html',
+      '03v-once.html',
+      '04v-html.html',
+      '05v-bind.html',
+      '06v-model.html',
+      '07logic-in-curly-brackets.html'
+    ]
+  ],
+  [
+    '2lesson-arrays-methods-computed',
+    [
+      '01v-for.html',
+      '02v-for.html',
+      '03v-for.html',
+      '04-methods.html',
+      '05-computed.html',
+      '06-computed.html',
+      '07-methods_v-bind.html'
+    ]
+  ],
+  [
+    '3lesson-events-methods',
+    [
+      '01-events.html',
+      '02v-show.html',
+      '03v-on.html',
+      '04-disabled.html',
+      '05v-for.html',
+      '06-events-sort.html',
+      '07-template.html'
+    ]
+  ],
+  [
+    '4lesson-forms-json',
+    [
+      '01forms.html',
+      '02forms.html',
+      '03forms-cart.html',
+      '04form-cart_v2.html',
+      '05forms-template.html',
+      '06forms-json_from_server.html'
+    ]
+  ],
+  [
+    '5lesson-components',
+    [
+      '01components.html',
+      '02component-data.html',
+      '03component-props.html',
+      '04app-comp.html',
+      '05app-comp_v2.html',
+      '06app-comp_v3.html',
+      '07comp-app.html',
+      '08global-data.html',
+      '10comp-task_2.html',
+      '9component komunikacja.html'
+    ]
+  ]
+]
+start serwera na porcie 3000
+katalogi:  [
+  '1lesson-directives',
+  '2lesson-arrays-methods-computed',
+  '3lesson-events-methods',
+  '4lesson-forms-json',
+  '5lesson-components'
+]
+a
+[
+  [
+    '1lesson-directives',
+    [
+      '01start.html',
+      '02v-text.html',
+      '03v-once.html',
+      '04v-html.html',
+      '05v-bind.html',
+      '06v-model.html',
+      '07logic-in-curly-brackets.html'
+    ]
+  ],
+  [
+    '2lesson-arrays-methods-computed',
+    [
+      '01v-for.html',
+      '02v-for.html',
+      '03v-for.html',
+      '04-methods.html',
+      '05-computed.html',
+      '06-computed.html',
+      '07-methods_v-bind.html'
+    ]
+  ],
+  [
+    '3lesson-events-methods',
+    [
+      '01-events.html',
+      '02v-show.html',
+      '03v-on.html',
+      '04-disabled.html',
+      '05v-for.html',
+      '06-events-sort.html',
+      '07-template.html'
+    ]
+  ],
+  [
+    '4lesson-forms-json',
+    [
+      '01forms.html',
+      '02forms.html',
+      '03forms-cart.html',
+      '04form-cart_v2.html',
+      '05forms-template.html',
+      '06forms-json_from_server.html'
+    ]
+  ],
+  [
+    '5lesson-components',
+    [
+      '01components.html',
+      '02component-data.html',
+      '03component-props.html',
+      '04app-comp.html',
+      '05app-comp_v2.html',
+      '06app-comp_v3.html',
+      '07comp-app.html',
+      '08global-data.html',
+      '10comp-task_2.html',
+      '9component komunikacja.html'
+    ]
+  ]
+]
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+katalogi:  [
+  '1lesson-directives',
+  '2lesson-arrays-methods-computed',
+  '3lesson-events-methods',
+  '4lesson-forms-json',
+  '5lesson-components'
+]
+a
+[
+  [
+    '1lesson-directives',
+    [
+      '01start.html',
+      '02v-text.html',
+      '03v-once.html',
+      '04v-html.html',
+      '05v-bind.html',
+      '06v-model.html',
+      '07logic-in-curly-brackets.html'
+    ]
+  ],
+  [
+    '2lesson-arrays-methods-computed',
+    [
+      '01v-for.html',
+      '02v-for.html',
+      '03v-for.html',
+      '04-methods.html',
+      '05-computed.html',
+      '06-computed.html',
+      '07-methods_v-bind.html'
+    ]
+  ],
+  [
+    '3lesson-events-methods',
+    [
+      '01-events.html',
+      '02v-show.html',
+      '03v-on.html',
+      '04-disabled.html',
+      '05v-for.html',
+      '06-events-sort.html',
+      '07-template.html'
+    ]
+  ],
+  [
+    '4lesson-forms-json',
+    [
+      '01forms.html',
+      '02forms.html',
+      '03forms-cart.html',
+      '04form-cart_v2.html',
+      '05forms-template.html',
+      '06forms-json_from_server.html'
+    ]
+  ],
+  [
+    '5lesson-components',
+    [
+      '01components.html',
+      '02component-data.html',
+      '03component-props.html',
+      '04app-comp.html',
+      '05app-comp_v2.html',
+      '06app-comp_v3.html',
+      '07comp-app.html',
+      '08global-data.html',
+      '10comp-task_2.html',
+      '9component komunikacja.html'
+    ]
+  ]
+]

@@ -1,0 +1,5903 @@
+Error: Cannot find module 'express'
+Require stack:
+- /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js
+- /usr/local/lib/ruby/gems/3.2/gems/passenger-6.0.17/src/helper-scripts/node-loader.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+    at Module._load (node:internal/modules/cjs/loader:983:27)
+    at Module.require (node:internal/modules/cjs/loader:1230:19)
+    at Module.require (/usr/local/lib/ruby/gems/3.2/gems/passenger-6.0.17/src/helper-scripts/node-loader.js:98:25)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:3:17)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+    at Module.load (node:internal/modules/cjs/loader:1205:32)
+    at Module._load (node:internal/modules/cjs/loader:1021:12)
+Error: ENOENT: no such file or directory, scandir 'static/upload'
+start serwera na porcie 3000
+undefined
+user is not logged in
+{ userName: '1', password: '1', confirmPassword: '1' }
+{ userName: '2', password: '2', confirmPassword: '2' }
+here: 
+{ userName: '2', password: '2' }
+2
+user is logged in
+2
+user is logged in
+2
+user is logged in
+2
+user is logged in
+root not present
+2
+user is logged in
+2
+user is logged in
+2
+user is logged in
+2
+user is logged in
+root not present
+2
+user is logged in
+2
+user is logged in
+2
+user is logged in
+2
+user is logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+here: 
+{ userName: '2', password: '2' }
+2
+user is logged in
+2
+user is logged in
+2
+user is logged in
+2
+user is logged in
+2
+user is logged in
+2
+user is logged in
+undefined
+user is not logged in
+start serwera na porcie 3000
+here: 
+undefined
+undefined
+user is not logged in
+{ userName: '2', password: '2', confirmPassword: '2' }
+here: 
+{ userName: '2', password: '2' }
+2
+user is logged in
+2
+user is logged in
+2
+user is logged in
+2
+user is logged in
+----- przesłane pola z formularza ------
+{}
+----- przesłane formularzem pliki ------
+{
+  files: [
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 7254315,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_7f7ddc0602b69f3acb192142fdda5d6f.mp4',
+      name: '2024-05-10_19-16-26.mp4',
+      type: 'video/mp4',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:41:33.999Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 231446,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_e0afbf0949c09f022dfdbdd329642330.jpg',
+      name: '07.jpg',
+      type: 'image/jpeg',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:41:34.002Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    }
+  ]
+}
+here testing
+more
+[
+  {
+    id: 0,
+    type: 'video/mp4',
+    name: '2024-05-10_19-16-26.mp4',
+    size: 7254315,
+    imgPath: 'gfx/other.png',
+    uploadPath: '/upload//usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_7f7ddc0602b69f3acb192142fdda5d6f.mp4',
+    savedate: 1715611294004
+  },
+  {
+    id: 1,
+    type: 'image/jpeg',
+    name: '07.jpg',
+    size: 231446,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/upload//usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_e0afbf0949c09f022dfdbdd329642330.jpg',
+    savedate: 1715611294004
+  }
+]
+2
+user is logged in
+2
+user is logged in
+{
+  id: 0,
+  type: 'video/mp4',
+  name: '2024-05-10_19-16-26.mp4',
+  size: 7254315,
+  imgPath: 'gfx/other.png',
+  uploadPath: '/upload//usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_7f7ddc0602b69f3acb192142fdda5d6f.mp4',
+  savedate: 1715611294004
+}
+video
+2
+user is logged in
+2
+user is logged in
+{
+  id: 1,
+  type: 'image/jpeg',
+  name: '07.jpg',
+  size: 231446,
+  imgPath: 'gfx/jpg.png',
+  uploadPath: '/upload//usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_e0afbf0949c09f022dfdbdd329642330.jpg',
+  savedate: 1715611294004
+}
+image
+[Error: ENOENT: no such file or directory, open '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_e0afbf0949c09f022dfdbdd329642330.jpg'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_e0afbf0949c09f022dfdbdd329642330.jpg'
+}
+start serwera na porcie 3000
+2
+user is not logged in
+2
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+----- przesłane pola z formularza ------
+{}
+----- przesłane formularzem pliki ------
+{
+  files: [
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 7254315,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_74318b74b0f44ed6185d8529e437147a.mp4',
+      name: '2024-05-10_19-16-26.mp4',
+      type: 'video/mp4',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:43:40.269Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 231446,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_c74d371807ade42d1bbc5e921a0a00cf.jpg',
+      name: '07.jpg',
+      type: 'image/jpeg',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:43:40.272Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 199838,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_195fe92cb89ea4de7867c43aaab1146c.jpg',
+      name: 'Zrzut ekranu 2024-04-20 233148.jpg',
+      type: 'image/jpeg',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:43:40.274Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 81128,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_332298f633c86753b42cf7a20960a3ba.webp',
+      name: '20240417_164541.webp',
+      type: 'image/webp',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:43:40.275Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    }
+  ]
+}
+here testing
+more
+[
+  {
+    id: 0,
+    type: 'video/mp4',
+    name: '2024-05-10_19-16-26.mp4',
+    size: 7254315,
+    imgPath: 'gfx/other.png',
+    uploadPath: '/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_74318b74b0f44ed6185d8529e437147a.mp4',
+    savedate: 1715611420277
+  },
+  {
+    id: 1,
+    type: 'image/jpeg',
+    name: '07.jpg',
+    size: 231446,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_c74d371807ade42d1bbc5e921a0a00cf.jpg',
+    savedate: 1715611420277
+  },
+  {
+    id: 2,
+    type: 'image/jpeg',
+    name: 'Zrzut ekranu 2024-04-20 233148.jpg',
+    size: 199838,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_195fe92cb89ea4de7867c43aaab1146c.jpg',
+    savedate: 1715611420277
+  },
+  {
+    id: 3,
+    type: 'image/webp',
+    name: '20240417_164541.webp',
+    size: 81128,
+    imgPath: 'gfx/other.png',
+    uploadPath: '/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_332298f633c86753b42cf7a20960a3ba.webp',
+    savedate: 1715611420277
+  }
+]
+1
+user is logged in
+1
+user is logged in
+{
+  id: 1,
+  type: 'image/jpeg',
+  name: '07.jpg',
+  size: 231446,
+  imgPath: 'gfx/jpg.png',
+  uploadPath: '/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_c74d371807ade42d1bbc5e921a0a00cf.jpg',
+  savedate: 1715611420277
+}
+image
+[Error: ENOENT: no such file or directory, open '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_c74d371807ade42d1bbc5e921a0a00cf.jpg'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_c74d371807ade42d1bbc5e921a0a00cf.jpg'
+}
+start serwera na porcie 3000
+1
+user is logged in
+undefined
+TypeError: Cannot read properties of undefined (reading 'type')
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:217:29
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:346:12)
+    at next (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:280:10)
+    at nocache (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/nocache/index.js:7:5)
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+----- przesłane pola z formularza ------
+{}
+----- przesłane formularzem pliki ------
+{
+  files: [
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 7254315,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_fc60ec7777f99d4a70dc748d878cfb06.mp4',
+      name: '2024-05-10_19-16-26.mp4',
+      type: 'video/mp4',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:45:08.400Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 243763,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_ce16ebf412653786289a3ee467fcaa22.jpg',
+      name: '00 - sprawdzian zadania.jpg',
+      type: 'image/jpeg',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:45:08.403Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 199838,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_b2a53cd6704464c79d636231ced4c1e1.jpg',
+      name: 'Zrzut ekranu 2024-04-20 233148.jpg',
+      type: 'image/jpeg',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:45:08.406Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 81128,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_a91f09145c41f6ed7270da826ad0a6ef.webp',
+      name: '20240417_164541.webp',
+      type: 'image/webp',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:45:08.407Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 74512,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_ee5672eb75b42d4f039ecf916d622443.webp',
+      name: '20240417_164545.webp',
+      type: 'image/webp',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:45:08.409Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    }
+  ]
+}
+here testing
+more
+[
+  {
+    id: 0,
+    type: 'video/mp4',
+    name: '2024-05-10_19-16-26.mp4',
+    size: 7254315,
+    imgPath: 'gfx/other.png',
+    uploadPath: '/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_fc60ec7777f99d4a70dc748d878cfb06.mp4',
+    savedate: 1715611508412
+  },
+  {
+    id: 1,
+    type: 'image/jpeg',
+    name: '00 - sprawdzian zadania.jpg',
+    size: 243763,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_ce16ebf412653786289a3ee467fcaa22.jpg',
+    savedate: 1715611508412
+  },
+  {
+    id: 2,
+    type: 'image/jpeg',
+    name: 'Zrzut ekranu 2024-04-20 233148.jpg',
+    size: 199838,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_b2a53cd6704464c79d636231ced4c1e1.jpg',
+    savedate: 1715611508412
+  },
+  {
+    id: 3,
+    type: 'image/webp',
+    name: '20240417_164541.webp',
+    size: 81128,
+    imgPath: 'gfx/other.png',
+    uploadPath: '/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_a91f09145c41f6ed7270da826ad0a6ef.webp',
+    savedate: 1715611508412
+  },
+  {
+    id: 4,
+    type: 'image/webp',
+    name: '20240417_164545.webp',
+    size: 74512,
+    imgPath: 'gfx/other.png',
+    uploadPath: '/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_ee5672eb75b42d4f039ecf916d622443.webp',
+    savedate: 1715611508412
+  }
+]
+1
+user is logged in
+1
+user is logged in
+{
+  id: 2,
+  type: 'image/jpeg',
+  name: 'Zrzut ekranu 2024-04-20 233148.jpg',
+  size: 199838,
+  imgPath: 'gfx/jpg.png',
+  uploadPath: '/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_b2a53cd6704464c79d636231ced4c1e1.jpg',
+  savedate: 1715611508412
+}
+image
+[Error: ENOENT: no such file or directory, open '/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_b2a53cd6704464c79d636231ced4c1e1.jpg'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/upload/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_b2a53cd6704464c79d636231ced4c1e1.jpg'
+}
+1
+user is logged in
+start serwera na porcie 3000
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+----- przesłane pola z formularza ------
+{}
+----- przesłane formularzem pliki ------
+{
+  files: [
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 231446,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_4ff4c72ab0ae6ec61aeb844fba6e901c.jpg',
+      name: '07.jpg',
+      type: 'image/jpeg',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:47:01.098Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 4185648,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_7000ed21f9d9738154272a86d03263a2.jpg',
+      name: '8k — kopia.jpg',
+      type: 'image/jpeg',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:47:01.147Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 4185648,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_fb3b2afae2105f08c6332e58d7ade079.jpg',
+      name: '8k.jpg',
+      type: 'image/jpeg',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:47:01.217Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 2420003,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_a449e8f28ae8f82b7580266bfbfe4f04.jpg',
+      name: '20231016_233136[2605].jpg',
+      type: 'image/jpeg',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:47:01.247Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    }
+  ]
+}
+here testing
+more
+[
+  {
+    id: 0,
+    type: 'image/jpeg',
+    name: '07.jpg',
+    size: 231446,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_4ff4c72ab0ae6ec61aeb844fba6e901c.jpg',
+    savedate: 1715611621252
+  },
+  {
+    id: 1,
+    type: 'image/jpeg',
+    name: '8k — kopia.jpg',
+    size: 4185648,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_7000ed21f9d9738154272a86d03263a2.jpg',
+    savedate: 1715611621252
+  },
+  {
+    id: 2,
+    type: 'image/jpeg',
+    name: '8k.jpg',
+    size: 4185648,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_fb3b2afae2105f08c6332e58d7ade079.jpg',
+    savedate: 1715611621252
+  },
+  {
+    id: 3,
+    type: 'image/jpeg',
+    name: '20231016_233136[2605].jpg',
+    size: 2420003,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_a449e8f28ae8f82b7580266bfbfe4f04.jpg',
+    savedate: 1715611621252
+  }
+]
+1
+user is logged in
+1
+user is logged in
+{
+  id: 0,
+  type: 'image/jpeg',
+  name: '07.jpg',
+  size: 231446,
+  imgPath: 'gfx/jpg.png',
+  uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_4ff4c72ab0ae6ec61aeb844fba6e901c.jpg',
+  savedate: 1715611621252
+}
+image
+1
+user is logged in
+1
+user is logged in
+[
+  {
+    id: 0,
+    type: 'image/jpeg',
+    name: '07.jpg',
+    size: 231446,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_4ff4c72ab0ae6ec61aeb844fba6e901c.jpg',
+    savedate: 1715611621252
+  },
+  {
+    id: 1,
+    type: 'image/jpeg',
+    name: '8k — kopia.jpg',
+    size: 4185648,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_7000ed21f9d9738154272a86d03263a2.jpg',
+    savedate: 1715611621252
+  },
+  {
+    id: 2,
+    type: 'image/jpeg',
+    name: '8k.jpg',
+    size: 4185648,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_fb3b2afae2105f08c6332e58d7ade079.jpg',
+    savedate: 1715611621252
+  },
+  {
+    id: 3,
+    type: 'image/jpeg',
+    name: '20231016_233136[2605].jpg',
+    size: 2420003,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_a449e8f28ae8f82b7580266bfbfe4f04.jpg',
+    savedate: 1715611621252
+  }
+]
+0
+1
+user is logged in
+1
+user is logged in
+{
+  id: 0,
+  type: 'image/jpeg',
+  name: '07.jpg',
+  size: 231446,
+  imgPath: 'gfx/jpg.png',
+  uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_4ff4c72ab0ae6ec61aeb844fba6e901c.jpg',
+  savedate: 1715611621252
+}
+Error: ENOENT: no such file or directory, stat '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_4ff4c72ab0ae6ec61aeb844fba6e901c.jpg'
+1
+user is logged in
+start serwera na porcie 3000
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+----- przesłane pola z formularza ------
+{}
+----- przesłane formularzem pliki ------
+{
+  files: [
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 231446,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_359bf21124b8f2b46cfc3ee3ead46117.jpg',
+      name: '07.jpg',
+      type: 'image/jpeg',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:48:04.070Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 217376,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_67901d34b8bb1a29288cc2fa3ab0ac4f.jpg',
+      name: '418726004_1637464436786599_6153800704042975284_n.jpg',
+      type: 'image/jpeg',
+      hash: null,
+      lastModifiedDate: 2024-05-13T14:48:04.072Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    }
+  ]
+}
+here testing
+more
+[
+  {
+    id: 0,
+    type: 'image/jpeg',
+    name: '07.jpg',
+    size: 231446,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_359bf21124b8f2b46cfc3ee3ead46117.jpg',
+    savedate: 1715611684076
+  },
+  {
+    id: 1,
+    type: 'image/jpeg',
+    name: '418726004_1637464436786599_6153800704042975284_n.jpg',
+    size: 217376,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_67901d34b8bb1a29288cc2fa3ab0ac4f.jpg',
+    savedate: 1715611684076
+  }
+]
+1
+user is logged in
+1
+user is logged in
+{
+  id: 0,
+  type: 'image/jpeg',
+  name: '07.jpg',
+  size: 231446,
+  imgPath: 'gfx/jpg.png',
+  uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_359bf21124b8f2b46cfc3ee3ead46117.jpg',
+  savedate: 1715611684076
+}
+1
+user is logged in
+{
+  id: 0,
+  type: 'image/jpeg',
+  name: '07.jpg',
+  size: 231446,
+  imgPath: 'gfx/jpg.png',
+  uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_359bf21124b8f2b46cfc3ee3ead46117.jpg',
+  savedate: 1715611684076
+}
+image
+1
+user is logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+here: 
+undefined
+undefined
+user is not logged in
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+1
+user is logged in
+image
+/1.jpg
+1
+user is logged in
+1
+user is logged in
+image
+/sas.jpg
+1
+user is logged in
+1
+user is logged in
+image
+/sas.jpg
+1
+user is logged in
+1
+user is logged in
+root not present
+1
+user is logged in
+root not present
+1
+user is logged in
+root not present
+1
+user is logged in
+1
+user is logged in
+root not present
+1
+user is logged in
+1
+user is logged in
+root not present
+1
+user is logged in
+1
+user is logged in
+root not present
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+1
+user is logged in
+root not present
+1
+user is logged in
+root not present
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+1
+user is logged in
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+1
+user is logged in
+root not present
+1
+user is logged in
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+1
+user is logged in
+root not present
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+undefined
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root not present
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+/asa
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root not present
+start serwera na porcie 3000
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root not present
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+/asa
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root not present
+start serwera na porcie 3000
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+0
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root not present
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+4
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+0
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root not present
+start serwera na porcie 3000
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+0
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root not present
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+4
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+0
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root not present
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+0
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root not present
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+4
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+start serwera na porcie 3000
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+4
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+0
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root not present
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+1.png
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+README.md
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+asa
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+assda
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+css.css
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+html.html
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+js.js
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+json.json
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+kopia_css_1706812863772.css
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+package.json
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+sas.jpg
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+txt.txt
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+xml.xml
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+start serwera na porcie 3000
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+0
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root not present
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+1.png
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+README.md
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+asa
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+assda
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+css.css
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+html.html
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+js.js
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+json.json
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+kopia_css_1706812863772.css
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+package.json
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+sas.jpg
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+txt.txt
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+xml.xml
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+4
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+0
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+root not present
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2
+jkahslkjshgdafljkgsafbgsajdgfjsdajh
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+1.png
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+README.md
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+asa
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+assda
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+css.css
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+html.html
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+js.js
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+json.json
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+kopia_css_1706812863772.css
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+package.json
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+sas.jpg
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+txt.txt
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+xml.xml
+file names here: aaaaaaaaaaaaaaaaaaaaaaaas
+1
+user is logged in
+akshfdjkasdghfjklsdbfhlsdjhghkljfdhkjhalkjshfdsja
+TypeError: Cannot read properties of undefined (reading 'length')
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:379:40
+    at FSReqCallback.oncomplete (node:fs:193:23)
+start serwera na porcie 3000
+1
+user is logged in
+TypeError: Cannot read properties of undefined (reading 'length')
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:379:40
+    at FSReqCallback.oncomplete (node:fs:193:23)
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+root not present
+1
+user is logged in
+image
+/1.png
+1
+user is logged in
+root not present
+1
+user is logged in
+root present
+
+
+[ { name: 'home', href: '' }, { name: '', href: '', last: true } ]
+1
+user is logged in
+root not present
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+[]
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+1
+user is logged in
+root not present
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+[
+  '1.png',
+  'README.md',
+  'asa',
+  'assda',
+  'css.css',
+  'html.html',
+  'js.js',
+  'json.json',
+  'kopia_css_1706812863772.css',
+  'package.json',
+  'sas.jpg',
+  'txt.txt',
+  'xml.xml'
+]
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+[]
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+1
+user is logged in
+root not present
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+[
+  '1.png',
+  'README.md',
+  'asa',
+  'assda',
+  'css.css',
+  'html.html',
+  'js.js',
+  'json.json',
+  'kopia_css_1706812863772.css',
+  'package.json',
+  'sas.jpg',
+  'txt.txt',
+  'xml.xml'
+]
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+[
+  '1.png',
+  'README.md',
+  'asa',
+  'assda',
+  'css.css',
+  'html.html',
+  'js.js',
+  'json.json',
+  'kopia_css_1706812863772.css',
+  'package.json',
+  'sas.jpg',
+  'txt.txt',
+  'xml.xml'
+]
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+1
+user is logged in
+root not present
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+[
+  '1.png',
+  'README.md',
+  'asa',
+  'assda',
+  'css.css',
+  'html.html',
+  'js.js',
+  'json.json',
+  'kopia_css_1706812863772.css',
+  'package.json',
+  'sas.jpg',
+  'txt.txt',
+  'xml.xml'
+]
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.png
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/README.md
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/assda
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/css.css
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/html.html
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/js.js
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/json.json
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_css_1706812863772.css
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/package.json
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/sas.jpg
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/xml.xml
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+1
+user is logged in
+root not present
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.png
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/README.md
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/assda
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/css.css
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/html.html
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/js.js
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/json.json
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_css_1706812863772.css
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/package.json
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/sas.jpg
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/xml.xml
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+root not present
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.png
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/README.md
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/assda
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/css.css
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/html.html
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/js.js
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/json.json
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_css_1706812863772.css
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/package.json
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/sas.jpg
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/xml.xml
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root not present
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.png
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/README.md
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/assda
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/css.css
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/html.html
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/js.js
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/json.json
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_css_1706812863772.css
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/package.json
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/sas.jpg
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/xml.xml
+names are here aaaaaaaaaaaaaaaaaaaaaaaaa
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: '1.png',
+  extension: 'png',
+  extensionPath: '\\gfx\\png.png',
+  file: false,
+  root: undefined,
+  image: true
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'README.md',
+  extension: 'other',
+  extensionPath: '\\gfx\\other.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'assda',
+  extension: 'other',
+  extensionPath: '\\gfx\\other.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{ name: 'asa', directory: true, root: undefined }
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'js.js',
+  extension: 'js',
+  extensionPath: '\\gfx\\js.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'json.json',
+  extension: 'json',
+  extensionPath: '\\gfx\\json.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'kopia_css_1706812863772.css',
+  extension: 'css',
+  extensionPath: '\\gfx\\css.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'html.html',
+  extension: 'html',
+  extensionPath: '\\gfx\\html.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'package.json',
+  extension: 'json',
+  extensionPath: '\\gfx\\json.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'css.css',
+  extension: 'css',
+  extensionPath: '\\gfx\\css.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'sas.jpg',
+  extension: 'jpg',
+  extensionPath: '\\gfx\\jpg.png',
+  file: false,
+  root: undefined,
+  image: true
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'txt.txt',
+  extension: 'txt',
+  extensionPath: '\\gfx\\txt.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'xml.xml',
+  extension: 'xml',
+  extensionPath: '\\gfx\\xml.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: '1.png',
+  extension: 'png',
+  extensionPath: '\\gfx\\png.png',
+  file: false,
+  root: undefined,
+  image: true
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'README.md',
+  extension: 'other',
+  extensionPath: '\\gfx\\other.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{ name: 'asa', directory: true, root: undefined }
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'assda',
+  extension: 'other',
+  extensionPath: '\\gfx\\other.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'css.css',
+  extension: 'css',
+  extensionPath: '\\gfx\\css.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'html.html',
+  extension: 'html',
+  extensionPath: '\\gfx\\html.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'js.js',
+  extension: 'js',
+  extensionPath: '\\gfx\\js.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'json.json',
+  extension: 'json',
+  extensionPath: '\\gfx\\json.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'kopia_css_1706812863772.css',
+  extension: 'css',
+  extensionPath: '\\gfx\\css.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'package.json',
+  extension: 'json',
+  extensionPath: '\\gfx\\json.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'sas.jpg',
+  extension: 'jpg',
+  extensionPath: '\\gfx\\jpg.png',
+  file: false,
+  root: undefined,
+  image: true
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'txt.txt',
+  extension: 'txt',
+  extensionPath: '\\gfx\\txt.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'xml.xml',
+  extension: 'xml',
+  extensionPath: '\\gfx\\xml.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'README.md',
+  extension: 'other',
+  extensionPath: '\\gfx\\other.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: '1.png',
+  extension: 'png',
+  extensionPath: '\\gfx\\png.png',
+  file: false,
+  root: undefined,
+  image: true
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'css.css',
+  extension: 'css',
+  extensionPath: '\\gfx\\css.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{ name: 'asa', directory: true, root: undefined }
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'assda',
+  extension: 'other',
+  extensionPath: '\\gfx\\other.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'js.js',
+  extension: 'js',
+  extensionPath: '\\gfx\\js.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'html.html',
+  extension: 'html',
+  extensionPath: '\\gfx\\html.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'json.json',
+  extension: 'json',
+  extensionPath: '\\gfx\\json.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'kopia_css_1706812863772.css',
+  extension: 'css',
+  extensionPath: '\\gfx\\css.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'package.json',
+  extension: 'json',
+  extensionPath: '\\gfx\\json.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'sas.jpg',
+  extension: 'jpg',
+  extensionPath: '\\gfx\\jpg.png',
+  file: false,
+  root: undefined,
+  image: true
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'txt.txt',
+  extension: 'txt',
+  extensionPath: '\\gfx\\txt.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'xml.xml',
+  extension: 'xml',
+  extensionPath: '\\gfx\\xml.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: '1.png',
+  extension: 'png',
+  extensionPath: '\\gfx\\png.png',
+  file: false,
+  root: undefined,
+  image: true
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'README.md',
+  extension: 'other',
+  extensionPath: '\\gfx\\other.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{ name: 'asa', directory: true, root: undefined }
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'assda',
+  extension: 'other',
+  extensionPath: '\\gfx\\other.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'html.html',
+  extension: 'html',
+  extensionPath: '\\gfx\\html.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'css.css',
+  extension: 'css',
+  extensionPath: '\\gfx\\css.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'js.js',
+  extension: 'js',
+  extensionPath: '\\gfx\\js.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'json.json',
+  extension: 'json',
+  extensionPath: '\\gfx\\json.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'kopia_css_1706812863772.css',
+  extension: 'css',
+  extensionPath: '\\gfx\\css.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'package.json',
+  extension: 'json',
+  extensionPath: '\\gfx\\json.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'sas.jpg',
+  extension: 'jpg',
+  extensionPath: '\\gfx\\jpg.png',
+  file: false,
+  root: undefined,
+  image: true
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'txt.txt',
+  extension: 'txt',
+  extensionPath: '\\gfx\\txt.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+file is heagsjhdgjhdskaskljkldslk
+{
+  name: 'xml.xml',
+  extension: 'xml',
+  extensionPath: '\\gfx\\xml.png',
+  file: true,
+  root: undefined
+}
+file is heagsjhdgjhdskaskljkldslk
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root present
+
+/tea
+[
+  { name: 'home', href: '' },
+  { name: 'tea', href: '/tea', last: true }
+]
+{
+  files: [],
+  root: '/tea',
+  rename: true,
+  name: 'tea',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'tea', href: '/tea', last: true }
+  ]
+}
+1
+user is logged in
+root present
+
+/tea
+[
+  { name: 'home', href: '' },
+  { name: 'tea', href: '/tea', last: true }
+]
+{
+  files: [],
+  root: '/tea',
+  rename: true,
+  name: 'tea',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'tea', href: '/tea', last: true }
+  ]
+}
+1
+user is logged in
+1
+user is logged in
+root present
+
+/tea
+[
+  { name: 'home', href: '' },
+  { name: 'tea', href: '/tea', last: true }
+]
+{
+  files: [],
+  root: '/tea',
+  rename: true,
+  name: 'tea',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'tea', href: '/tea', last: true }
+  ]
+}
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+{
+  files: [],
+  root: '/asa',
+  rename: true,
+  name: 'asa',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asa', href: '/asa', last: true }
+  ]
+}
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root present
+
+/tea
+[
+  { name: 'home', href: '' },
+  { name: 'tea', href: '/tea', last: true }
+]
+{
+  files: [],
+  root: '/tea',
+  rename: true,
+  name: 'tea',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'tea', href: '/tea', last: true }
+  ]
+}
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+root not present
+Error processing files: ReferenceError: req is not defined
+    at processFiles (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:491:9)
+    at renderFiles (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:555:15)
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:474:17
+    at FSReqCallback.oncomplete (node:fs:193:23)
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+Error processing files: ReferenceError: context is not defined
+    at renderFiles (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:557:40)
+TypeError: Cannot read properties of undefined (reading 'isDirectory')
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:501:23
+    at FSReqCallback.oncomplete (node:fs:203:21)
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+TypeError: Cannot read properties of undefined (reading 'isDirectory')
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:503:23
+    at FSReqCallback.oncomplete (node:fs:203:21)
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+filepathasdddddddddddddddddddddddd
+Error processing files: ReferenceError: filepath is not defined
+    at processFiles (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:501:21)
+    at renderFiles (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:563:31)
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:474:17
+    at FSReqCallback.oncomplete (node:fs:193:23)
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+filepathasdddddddddddddddddddddddd
+Error processing files: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at Object.join (node:path:1175:7)
+    at processFiles (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:501:26)
+    at renderFiles (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:563:31)
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:474:17
+    at FSReqCallback.oncomplete (node:fs:193:23) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+1
+user is logged in
+root not present
+filepathasdddddddddddddddddddddddd
+Error processing files: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at Object.join (node:path:1175:7)
+    at processFiles (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:501:26)
+    at renderFiles (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:563:31)
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:474:17
+    at FSReqCallback.oncomplete (node:fs:193:23) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/0
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/2
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/3
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/4
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/5
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/6
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/7
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/8
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/9
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/10
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/11
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/12
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/13
+filepathasdddddddddddddddddddddddd
+TypeError: Cannot read properties of undefined (reading 'isDirectory')
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:507:23
+    at FSReqCallback.oncomplete (node:fs:203:21)
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+root not present
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.png
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/README.md
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/assda
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/css.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/html.html
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/js.js
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/json.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_css_1706812863772.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/package.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/sas.jpg
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/tea
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/xml.xml
+filepathasdddddddddddddddddddddddd
+ReferenceError: availableExtensions is not defined
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:523:37
+    at FSReqCallback.oncomplete (node:fs:204:5)
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.png
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/README.md
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/assda
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/css.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/html.html
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/js.js
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/json.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_css_1706812863772.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/package.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/sas.jpg
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/tea
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/xml.xml
+filepathasdddddddddddddddddddddddd
+ReferenceError: root is not defined
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:543:27
+    at FSReqCallback.oncomplete (node:fs:204:5)
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.png
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/README.md
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/assda
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/css.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/html.html
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/js.js
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/json.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_css_1706812863772.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/package.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/sas.jpg
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/tea
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/xml.xml
+filepathasdddddddddddddddddddddddd
+TypeError: Assignment to constant variable.
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:538:22
+    at FSReqCallback.oncomplete (node:fs:204:5)
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.png
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/README.md
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/assda
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/css.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/html.html
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/js.js
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/json.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_css_1706812863772.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/package.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/sas.jpg
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/tea
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/xml.xml
+filepathasdddddddddddddddddddddddd
+TypeError: Cannot read properties of undefined (reading 'push')
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:554:27
+    at FSReqCallback.oncomplete (node:fs:204:5)
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+Error processing files: ReferenceError: Cannot access 'context' before initialization
+    at renderFiles (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:564:83)
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/app.js:474:17
+    at FSReqCallback.oncomplete (node:fs:193:23)
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.png
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/README.md
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/assda
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/css.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/html.html
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/js.js
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/json.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_css_1706812863772.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/package.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/sas.jpg
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/tea
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/xml.xml
+filepathasdddddddddddddddddddddddd
+1
+user is logged in
+root present
+
+/tea
+[
+  { name: 'home', href: '' },
+  { name: 'tea', href: '/tea', last: true }
+]
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+filepathasdddddddddddddddddddddddd
+1
+user is logged in
+root not present
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.png
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/README.md
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/assda
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/css.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/html.html
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/js.js
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/json.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_css_1706812863772.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/package.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/sas.jpg
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/tea
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/xml.xml
+filepathasdddddddddddddddddddddddd
+1
+user is logged in
+root not present
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.png
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/README.md
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/assda
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/css.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/html.html
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/js.js
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/json.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_css_1706812863772.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/package.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/sas.jpg
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/tea
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/xml.xml
+filepathasdddddddddddddddddddddddd
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.png
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/README.md
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/assda
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/css.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/html.html
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/js.js
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/json.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_css_1706812863772.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/package.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/sas.jpg
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/tea
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/xml.xml
+filepathasdddddddddddddddddddddddd
+1
+user is logged in
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+1
+user is logged in
+root not present
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.png
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/README.md
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/assda
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/css.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/html.html
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/js.js
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/json.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_css_1706812863772.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/package.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/sas.jpg
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/tea
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/xml.xml
+filepathasdddddddddddddddddddddddd
+1
+user is logged in
+root present
+
+/tea
+[
+  { name: 'home', href: '' },
+  { name: 'tea', href: '/tea', last: true }
+]
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+filepathasdddddddddddddddddddddddd
+1
+user is logged in
+root not present
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.png
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/README.md
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/assda
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/css.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/html.html
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/js.js
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/json.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_css_1706812863772.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/package.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/sas.jpg
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/tea
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/xml.xml
+filepathasdddddddddddddddddddddddd
+1
+user is logged in
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+1
+user is logged in
+root not present
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.png
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/README.md
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/asa
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/assda
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/css.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/html.html
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/js.js
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/json.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_css_1706812863772.css
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/package.json
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/sas.jpg
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/tea
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/txt.txt
+filepathasdddddddddddddddddddddddd
+filepathasdddddddddddddddddddddddd
+/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/xml.xml
+filepathasdddddddddddddddddddddddd
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root present
+
+/tea
+[
+  { name: 'home', href: '' },
+  { name: 'tea', href: '/tea', last: true }
+]
+{
+  files: [],
+  root: '/tea',
+  rename: true,
+  name: 'tea',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'tea', href: '/tea', last: true }
+  ]
+}
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+{
+  files: [],
+  root: '/asa',
+  rename: true,
+  name: 'asa',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asa', href: '/asa', last: true }
+  ]
+}
+1
+user is logged in
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+{
+  files: [],
+  root: '/asa',
+  rename: true,
+  name: 'asa',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asa', href: '/asa', last: true }
+  ]
+}
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root present
+
+/tea
+[
+  { name: 'home', href: '' },
+  { name: 'tea', href: '/tea', last: true }
+]
+{
+  files: [],
+  root: '/tea',
+  rename: true,
+  name: 'tea',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'tea', href: '/tea', last: true }
+  ]
+}
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+image
+/1.png
+1
+user is logged in
+1
+user is logged in
+image
+/123123.png
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+start serwera na porcie 3000
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+start serwera na porcie 3000
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+start serwera na porcie 3000
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+start serwera na porcie 3000
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+plik istnieje
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root present
+
+/asd
+[
+  { name: 'home', href: '' },
+  { name: 'asd', href: '/asd', last: true }
+]
+{
+  files: [],
+  root: '/asd',
+  rename: true,
+  name: 'asd',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asd', href: '/asd', last: true }
+  ]
+}
+1
+user is logged in
+1
+user is logged in
+root present
+
+/asd
+[
+  { name: 'home', href: '' },
+  { name: 'asd', href: '/asd', last: true }
+]
+{
+  files: [],
+  root: '/asd',
+  rename: true,
+  name: 'asd',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asd', href: '/asd', last: true }
+  ]
+}
+1
+user is logged in
+1
+user is logged in
+root present
+
+/asd
+[
+  { name: 'home', href: '' },
+  { name: 'asd', href: '/asd', last: true }
+]
+{
+  files: [],
+  root: '/asd',
+  rename: true,
+  name: 'asd',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asd', href: '/asd', last: true }
+  ]
+}
+1
+user is logged in
+root present
+
+/asd
+/asd/1
+[
+  { name: 'home', href: '' },
+  { name: 'asd', href: '/asd' },
+  { name: '1', href: '/asd/1', last: true }
+]
+{
+  files: [],
+  root: '/asd/1',
+  rename: true,
+  name: '1',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asd', href: '/asd' },
+    { name: '1', href: '/asd/1', last: true }
+  ]
+}
+1
+user is logged in
+1
+user is logged in
+root present
+
+/asd
+/asd/1
+[
+  { name: 'home', href: '' },
+  { name: 'asd', href: '/asd' },
+  { name: '1', href: '/asd/1', last: true }
+]
+{
+  files: [],
+  root: '/asd/1',
+  rename: true,
+  name: '1',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asd', href: '/asd' },
+    { name: '1', href: '/asd/1', last: true }
+  ]
+}
+1
+user is logged in
+plik istnieje
+1
+user is logged in
+root present
+
+/asd
+/asd/1
+[
+  { name: 'home', href: '' },
+  { name: 'asd', href: '/asd' },
+  { name: '1', href: '/asd/1', last: true }
+]
+{
+  files: [],
+  root: '/asd/1',
+  rename: true,
+  name: '1',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asd', href: '/asd' },
+    { name: '1', href: '/asd/1', last: true }
+  ]
+}
+1
+user is logged in
+root present
+
+/asd
+[
+  { name: 'home', href: '' },
+  { name: 'asd', href: '/asd', last: true }
+]
+{
+  files: [],
+  root: '/asd',
+  rename: true,
+  name: 'asd',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asd', href: '/asd', last: true }
+  ]
+}
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+name new, adding..
+----- przesłane pola z formularza ------
+{}
+----- przesłane formularzem pliki ------
+{
+  wybierzPlik: File {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    size: 231446,
+    path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/07.jpg',
+    name: '07.jpg',
+    type: 'image/jpeg',
+    hash: null,
+    lastModifiedDate: 2024-05-13T15:45:27.541Z,
+    _writeStream: WriteStream {
+      fd: 18,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/07.jpg',
+      flags: 'w',
+      mode: 438,
+      flush: false,
+      start: undefined,
+      pos: undefined,
+      bytesWritten: 231446,
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _eventsCount: 0,
+      [Symbol(kFs)]: [Object],
+      [Symbol(kIsPerformingIO)]: false,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  }
+}
+here testing
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+image
+/07.jpg
+PayloadTooLargeError: request entity too large
+    at readStream (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/raw-body/index.js:163:17)
+    at getRawBody (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/raw-body/index.js:116:12)
+    at read (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/body-parser/lib/read.js:79:3)
+    at jsonParser (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/body-parser/lib/types/json.js:138:5)
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:328:13)
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:346:12)
+    at next (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+PayloadTooLargeError: request entity too large
+    at readStream (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/raw-body/index.js:163:17)
+    at getRawBody (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/raw-body/index.js:116:12)
+    at read (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/body-parser/lib/read.js:79:3)
+    at jsonParser (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/body-parser/lib/types/json.js:138:5)
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:328:13)
+    at /usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:346:12)
+    at next (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+image
+/123123.png
+1
+user is logged in
+1
+user is logged in
+/123123.png
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+image
+/123123.png
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+image
+/07.jpg
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+image
+/123123.png
+start serwera na porcie 3000
+1
+user is logged in
+image
+/123123.png
+start serwera na porcie 3000
+1
+user is logged in
+image
+/123123.png
+1
+user is logged in
+image
+/123123.png
+start serwera na porcie 3000
+1
+user is logged in
+image
+/123123.png
+start serwera na porcie 3000
+1
+user is logged in
+image
+/123123.png
+start serwera na porcie 3000
+1
+user is logged in
+image
+/123123.png
+start serwera na porcie 3000
+1
+user is logged in
+image
+/123123.png
+start serwera na porcie 3000
+1
+user is logged in
+image
+/123123.png
+start serwera na porcie 3000
+1
+user is logged in
+image
+/123123.png
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+start serwera na porcie 3000
+undefined
+user is not logged in
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+{
+  files: [],
+  root: '/asa',
+  rename: true,
+  name: 'asa',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asa', href: '/asa', last: true }
+  ]
+}
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+start serwera na porcie 3000
+start serwera na porcie 3000
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+image
+/123123.png
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+start serwera na porcie 3000
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+{
+  files: [],
+  root: '/asa',
+  rename: true,
+  name: 'asa',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asa', href: '/asa', last: true }
+  ]
+}
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+image
+/123123.png
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root present
+
+/asd
+[
+  { name: 'home', href: '' },
+  { name: 'asd', href: '/asd', last: true }
+]
+{
+  files: [],
+  root: '/asd',
+  rename: true,
+  name: 'asd',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asd', href: '/asd', last: true }
+  ]
+}
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+name present we change
+----- przesłane pola z formularza ------
+{}
+----- przesłane formularzem pliki ------
+{
+  wybierzPlik: File {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    size: 231446,
+    path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_07_1715622596573.jpg',
+    name: '07.jpg',
+    type: 'image/jpeg',
+    hash: null,
+    lastModifiedDate: 2024-05-13T17:49:56.578Z,
+    _writeStream: WriteStream {
+      fd: 18,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/kopia_07_1715622596573.jpg',
+      flags: 'w',
+      mode: 438,
+      flush: false,
+      start: undefined,
+      pos: undefined,
+      bytesWritten: 231446,
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _eventsCount: 0,
+      [Symbol(kFs)]: [Object],
+      [Symbol(kIsPerformingIO)]: false,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  }
+}
+here testing
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+plik zapisany
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>TEST HTML</title>
+	</head>
+	<body>
+              <p>testowa wiadomosc</p>
+	</body>
+</html>
+1
+user is logged in
+plik zapisany
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>TEST HTML</title>
+	</head>
+	<body>
+              <p>testowa wiadomosc</p>
+	</body>
+</html>
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+{
+  files: [],
+  root: '/asa',
+  rename: true,
+  name: 'asa',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asa', href: '/asa', last: true }
+  ]
+}
+1
+user is logged in
+1
+user is logged in
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+{
+  files: [],
+  root: '/asa',
+  rename: true,
+  name: 'asa',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asa', href: '/asa', last: true }
+  ]
+}
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+start serwera na porcie 3000
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root present
+
+/asd
+[
+  { name: 'home', href: '' },
+  { name: 'asd', href: '/asd', last: true }
+]
+{
+  files: [],
+  root: '/asd',
+  rename: true,
+  name: 'asd',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asd', href: '/asd', last: true }
+  ]
+}
+1
+user is logged in
+1
+user is logged in
+root present
+
+/asd
+[
+  { name: 'home', href: '' },
+  { name: 'asd', href: '/asd', last: true }
+]
+{
+  files: [],
+  root: '/asd',
+  rename: true,
+  name: 'asd',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asd', href: '/asd', last: true }
+  ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+start serwera na porcie 3000
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+start serwera na porcie 3000
+start serwera na porcie 3000
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+{
+  userName: 'jjjoker',
+  password: 'zaq1@WSX',
+  confirmPassword: 'zaq1@WSX'
+}
+here: 
+{ userName: 'jjjoker', password: 'zaq1@WSX' }
+jjjoker
+user is logged in
+jjjoker
+user is logged in
+jjjoker
+user is logged in
+jjjoker
+user is logged in
+jjjoker
+user is logged in
+jjjoker
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+jjjoker
+user is logged in
+jjjoker
+user is logged in
+jjjoker
+user is logged in
+jjjoker
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+jjjoker
+user is logged in
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+{
+  files: [],
+  root: '/asa',
+  rename: true,
+  name: 'asa',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asa', href: '/asa', last: true }
+  ]
+}
+jjjoker
+user is logged in
+root present
+
+/asa
+/asa/adsasd
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa' },
+  { name: 'adsasd', href: '/asa/adsasd', last: true }
+]
+{
+  files: [],
+  root: '/asa/adsasd',
+  rename: true,
+  name: 'adsasd',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asa', href: '/asa' },
+    { name: 'adsasd', href: '/asa/adsasd', last: true }
+  ]
+}
+jjjoker
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+jjjoker
+user is logged in
+jjjoker
+user is logged in
+----- przesłane pola z formularza ------
+{}
+----- przesłane formularzem pliki ------
+{
+  files: File {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    size: 12278,
+    path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_a5906da9c0a5f5a4840c65c9b8678519.jpg',
+    name: 'lama.jpg',
+    type: 'image/jpeg',
+    hash: null,
+    lastModifiedDate: 2024-09-05T10:17:09.237Z,
+    _writeStream: WriteStream {
+      fd: 18,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_a5906da9c0a5f5a4840c65c9b8678519.jpg',
+      flags: 'w',
+      mode: 438,
+      flush: false,
+      start: undefined,
+      pos: undefined,
+      bytesWritten: 12278,
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _eventsCount: 0,
+      [Symbol(kFs)]: [Object],
+      [Symbol(kIsPerformingIO)]: false,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  }
+}
+here testing
+one
+[
+  {
+    id: 0,
+    type: 'image/jpeg',
+    name: 'lama.jpg',
+    size: 12278,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_a5906da9c0a5f5a4840c65c9b8678519.jpg',
+    savedate: 1725531429238
+  }
+]
+jjjoker
+user is logged in
+jjjoker
+user is logged in
+{
+  id: 0,
+  type: 'image/jpeg',
+  name: 'lama.jpg',
+  size: 12278,
+  imgPath: 'gfx/jpg.png',
+  uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_a5906da9c0a5f5a4840c65c9b8678519.jpg',
+  savedate: 1725531429238
+}
+image
+jjjoker
+user is logged in
+jjjoker
+user is logged in
+jjjoker
+user is logged in
+jjjoker
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+jjjoker
+user is logged in
+jjjoker
+user is logged in
+jjjoker
+user is logged in
+----- przesłane pola z formularza ------
+{}
+----- przesłane formularzem pliki ------
+{
+  files: File {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    size: 149836,
+    path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_f855c1c0b95f41c993de3e5bfd75383b.jpg',
+    name: 'slon.jpg',
+    type: 'image/jpeg',
+    hash: null,
+    lastModifiedDate: 2024-09-05T10:18:11.693Z,
+    _writeStream: WriteStream {
+      fd: 18,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_f855c1c0b95f41c993de3e5bfd75383b.jpg',
+      flags: 'w',
+      mode: 438,
+      flush: false,
+      start: undefined,
+      pos: undefined,
+      bytesWritten: 149836,
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _eventsCount: 0,
+      [Symbol(kFs)]: [Object],
+      [Symbol(kIsPerformingIO)]: false,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  }
+}
+here testing
+one
+[
+  {
+    id: 0,
+    type: 'image/jpeg',
+    name: 'lama.jpg',
+    size: 12278,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_a5906da9c0a5f5a4840c65c9b8678519.jpg',
+    savedate: 1725531429238
+  },
+  {
+    id: 1,
+    type: 'image/jpeg',
+    name: 'slon.jpg',
+    size: 149836,
+    imgPath: 'gfx/jpg.png',
+    uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_f855c1c0b95f41c993de3e5bfd75383b.jpg',
+    savedate: 1725531491694
+  }
+]
+jjjoker
+user is logged in
+jjjoker
+user is logged in
+{
+  id: 1,
+  type: 'image/jpeg',
+  name: 'slon.jpg',
+  size: 149836,
+  imgPath: 'gfx/jpg.png',
+  uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_f855c1c0b95f41c993de3e5bfd75383b.jpg',
+  savedate: 1725531491694
+}
+image
+start serwera na porcie 3000
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+here: 
+{ userName: 'test', password: 'test' }
+undefined
+user is not logged in
+{ userName: 'seksiak123', password: 'lol', confirmPassword: 'lol' }
+undefined
+user is not logged in
+here: 
+{ userName: 'seksiak123', password: 'lol' }
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak123
+user is logged in
+image
+/07.jpg
+seksiak123
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+seksiak123
+user is logged in
+undefined
+user is not logged in
+{ userName: 'seksiak321', password: 'zaq', confirmPassword: 'zaq' }
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+here: 
+{ userName: 'seksiak321', password: 'zaq' }
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak321
+user is logged in
+name new, adding..
+----- przesłane pola z formularza ------
+{}
+----- przesłane formularzem pliki ------
+{
+  wybierzPlik: File {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    size: 2949,
+    path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/zad.txt',
+    name: 'zad.txt',
+    type: 'text/plain',
+    hash: null,
+    lastModifiedDate: 2024-09-19T14:37:39.288Z,
+    _writeStream: WriteStream {
+      fd: 18,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/zad.txt',
+      flags: 'w',
+      mode: 438,
+      flush: false,
+      start: undefined,
+      pos: undefined,
+      bytesWritten: 2949,
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _eventsCount: 0,
+      [Symbol(kFs)]: [Object],
+      [Symbol(kIsPerformingIO)]: false,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  }
+}
+here testing
+seksiak321
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+undefined
+user is not logged in
+here: 
+{ userName: 'seksiak321', password: 'zaq' }
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+plik istnieje
+seksiak321
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak321
+user is logged in
+name new, adding..
+----- przesłane pola z formularza ------
+{}
+----- przesłane formularzem pliki ------
+{
+  wybierzPlik: File {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    size: 3483,
+    path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/zad.txt',
+    name: 'zad.txt',
+    type: 'text/plain',
+    hash: null,
+    lastModifiedDate: 2024-09-19T14:39:30.935Z,
+    _writeStream: WriteStream {
+      fd: 18,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/zad.txt',
+      flags: 'w',
+      mode: 438,
+      flush: false,
+      start: undefined,
+      pos: undefined,
+      bytesWritten: 3483,
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _eventsCount: 0,
+      [Symbol(kFs)]: [Object],
+      [Symbol(kIsPerformingIO)]: false,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  }
+}
+here testing
+seksiak321
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak321
+user is logged in
+name new, adding..
+name new, adding..
+name new, adding..
+name new, adding..
+----- przesłane pola z formularza ------
+{}
+----- przesłane formularzem pliki ------
+{
+  wybierzPlik: [
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 80998,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.1.png',
+      name: '1.1.png',
+      type: 'image/png',
+      hash: null,
+      lastModifiedDate: 2024-09-19T14:39:52.741Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 438893,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.2.png',
+      name: '1.2.png',
+      type: 'image/png',
+      hash: null,
+      lastModifiedDate: 2024-09-19T14:39:52.747Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 287392,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.3.png',
+      name: '1.3.png',
+      type: 'image/png',
+      hash: null,
+      lastModifiedDate: 2024-09-19T14:39:52.754Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 321050,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.6.png',
+      name: '1.6.png',
+      type: 'image/png',
+      hash: null,
+      lastModifiedDate: 2024-09-19T14:39:52.756Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    }
+  ]
+}
+here testing
+seksiak321
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak321
+user is logged in
+name new, adding..
+name new, adding..
+----- przesłane pola z formularza ------
+{}
+----- przesłane formularzem pliki ------
+{
+  wybierzPlik: [
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 7515,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.6-orange.png',
+      name: '1.6-orange.png',
+      type: 'image/png',
+      hash: null,
+      lastModifiedDate: 2024-09-19T14:39:56.763Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    File {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      size: 470954,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/1.8.png',
+      name: '1.8.png',
+      type: 'image/png',
+      hash: null,
+      lastModifiedDate: 2024-09-19T14:39:56.770Z,
+      _writeStream: [WriteStream],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    }
+  ]
+}
+here testing
+seksiak321
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak321
+user is logged in
+image
+/1.6-orange.png
+seksiak321
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak321
+user is logged in
+image
+/1.1.png
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+image
+/1.2.png
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak321
+user is logged in
+image
+/1.1.png
+seksiak321
+user is logged in
+image
+/1.1.png
+seksiak321
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak321
+user is logged in
+image
+/1.2.png
+seksiak321
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak321
+user is logged in
+undefined
+user is not logged in
+here: 
+{ userName: 'seksiak321', password: 'zaq' }
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak321
+user is logged in
+name new, adding..
+----- przesłane pola z formularza ------
+{}
+----- przesłane formularzem pliki ------
+{
+  wybierzPlik: File {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    size: 320082,
+    path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/2.1.png',
+    name: '2.1.png',
+    type: 'image/png',
+    hash: null,
+    lastModifiedDate: 2024-09-19T14:43:52.369Z,
+    _writeStream: WriteStream {
+      fd: 18,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/2.1.png',
+      flags: 'w',
+      mode: 438,
+      flush: false,
+      start: undefined,
+      pos: undefined,
+      bytesWritten: 320082,
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _eventsCount: 0,
+      [Symbol(kFs)]: [Object],
+      [Symbol(kIsPerformingIO)]: false,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  }
+}
+here testing
+seksiak321
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+here: 
+{ userName: 'seksiak321', password: 'zaq' }
+seksiak321
+user is logged in
+seksiak321
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+seksiak321
+user is logged in
+image
+/2.1.png
+seksiak321
+user is logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+undefined
+{ userName: 'seksiak123', password: '123', confirmPassword: '123' }
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+here: 
+{ userName: 'seksiak123', password: '123' }
+{ userName: 'seksiak123', password: 'zaq1', confirmPassword: 'zaq1' }
+{ userName: 'seksiak123', password: 'ZAQ!', confirmPassword: 'ZAQ!' }
+undefined
+user is not logged in
+{ userName: 'seksiak123', password: 'test', confirmPassword: 'test' }
+undefined
+user is not logged in
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+{ userName: 'areczek', password: '123', confirmPassword: '123' }
+undefined
+user is not logged in
+here: 
+{ userName: 'areczek', password: '123' }
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+image
+/sas.jpg
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+image
+/07.jpg
+areczek
+user is logged in
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+undefined
+user is not logged in
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+image
+/07.jpg
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+image
+/1.8.png
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+here: 
+{ userName: 'areczek', password: '123' }
+areczek
+user is logged in
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+image
+/1.6.png
+areczek
+user is logged in
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+image
+/2.1.png
+areczek
+user is logged in
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+plik istnieje
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+plik istnieje
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+plik istnieje
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+plik istnieje
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+plik istnieje
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+plik istnieje
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+image
+/1.6-orange.png
+areczek
+user is logged in
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+image
+/123123.png
+areczek
+user is logged in
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+image
+/sas.jpg
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+areczek
+user is logged in
+----- przesłane pola z formularza ------
+{}
+----- przesłane formularzem pliki ------
+{
+  files: File {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    size: 10048,
+    path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_8b4dacf6e8fdd0318bd8f5c07cdff1d5.pdf',
+    name: 'temperature_graph.pdf',
+    type: 'application/pdf',
+    hash: null,
+    lastModifiedDate: 2024-10-10T15:11:54.892Z,
+    _writeStream: WriteStream {
+      fd: 18,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_8b4dacf6e8fdd0318bd8f5c07cdff1d5.pdf',
+      flags: 'w',
+      mode: 438,
+      flush: false,
+      start: undefined,
+      pos: undefined,
+      bytesWritten: 10048,
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _eventsCount: 0,
+      [Symbol(kFs)]: [Object],
+      [Symbol(kIsPerformingIO)]: false,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  }
+}
+here testing
+one
+[
+  {
+    id: 0,
+    type: 'application/pdf',
+    name: 'temperature_graph.pdf',
+    size: 10048,
+    imgPath: 'gfx/other.png',
+    uploadPath: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload/upload_8b4dacf6e8fdd0318bd8f5c07cdff1d5.pdf',
+    savedate: 1728573114893
+  }
+]
+areczek
+user is logged in
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+name new, adding..
+----- przesłane pola z formularza ------
+{}
+----- przesłane formularzem pliki ------
+{
+  wybierzPlik: File {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    size: 10048,
+    path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/temperature_graph.pdf',
+    name: 'temperature_graph.pdf',
+    type: 'application/pdf',
+    hash: null,
+    lastModifiedDate: 2024-10-10T15:12:01.127Z,
+    _writeStream: WriteStream {
+      fd: 18,
+      path: '/usr/home/NoobXXX890290/domains/filemanagermz.ct8.pl/public_nodejs/static/upload2/temperature_graph.pdf',
+      flags: 'w',
+      mode: 438,
+      flush: false,
+      start: undefined,
+      pos: undefined,
+      bytesWritten: 10048,
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _eventsCount: 0,
+      [Symbol(kFs)]: [Object],
+      [Symbol(kIsPerformingIO)]: false,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false
+  }
+}
+here testing
+areczek
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+areczek
+user is logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+undefined
+undefined
+user is not logged in
+undefined
+user is not logged in
+start serwera na porcie 3000
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+image
+/123123.png
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+image
+/1.6-orange.png
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+{
+  files: [],
+  root: '/asa',
+  rename: true,
+  name: 'asa',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asa', href: '/asa', last: true }
+  ]
+}
+1
+user is logged in
+root present
+
+/asa
+/asa/adsasd
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa' },
+  { name: 'adsasd', href: '/asa/adsasd', last: true }
+]
+{
+  files: [],
+  root: '/asa/adsasd',
+  rename: true,
+  name: 'adsasd',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asa', href: '/asa' },
+    { name: 'adsasd', href: '/asa/adsasd', last: true }
+  ]
+}
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+root present
+
+/asa
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa', last: true }
+]
+{
+  files: [],
+  root: '/asa',
+  rename: true,
+  name: 'asa',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asa', href: '/asa', last: true }
+  ]
+}
+1
+user is logged in
+root present
+
+/asa
+/asa/adsasd
+[
+  { name: 'home', href: '' },
+  { name: 'asa', href: '/asa' },
+  { name: 'adsasd', href: '/asa/adsasd', last: true }
+]
+{
+  files: [],
+  root: '/asa/adsasd',
+  rename: true,
+  name: 'adsasd',
+  raodArr: [
+    { name: 'home', href: '' },
+    { name: 'asa', href: '/asa' },
+    { name: 'adsasd', href: '/asa/adsasd', last: true }
+  ]
+}
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+here: 
+{ userName: '1', password: '1' }
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+1
+user is logged in
+root not present
+{
+  files: [],
+  root: '',
+  raodArr: [ { name: 'home', href: '', last: true } ]
+}
+1
+user is logged in
+image
+/07.jpg
+start serwera na porcie 3000
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+undefined
+user is not logged in
+start serwera na porcie 3000
+start serwera na porcie 3000
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+start serwera na porcie 3000
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in
+undefined
+user is not logged in

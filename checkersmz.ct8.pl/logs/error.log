@@ -1,0 +1,359 @@
+Error: Cannot find module 'socket.io'
+Require stack:
+- /usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/app.js
+- /usr/local/lib/ruby/gems/3.2/gems/passenger-6.0.17/src/helper-scripts/node-loader.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+    at Module._load (node:internal/modules/cjs/loader:983:27)
+    at Module.require (node:internal/modules/cjs/loader:1230:19)
+    at Module.require (/usr/local/lib/ruby/gems/3.2/gems/passenger-6.0.17/src/helper-scripts/node-loader.js:98:25)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/app.js:19:20)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+    at Module.load (node:internal/modules/cjs/loader:1205:32)
+    at Module._load (node:internal/modules/cjs/loader:1021:12)
+Error: Cannot find module 'socket.io'
+Require stack:
+- /usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/app.js
+- /usr/local/lib/ruby/gems/3.2/gems/passenger-6.0.17/src/helper-scripts/node-loader.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+    at Module._load (node:internal/modules/cjs/loader:983:27)
+    at Module.require (node:internal/modules/cjs/loader:1230:19)
+    at Module.require (/usr/local/lib/ruby/gems/3.2/gems/passenger-6.0.17/src/helper-scripts/node-loader.js:98:25)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/app.js:19:20)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+    at Module.load (node:internal/modules/cjs/loader:1205:32)
+    at Module._load (node:internal/modules/cjs/loader:1021:12)
+server listening on 3000
+starting new timer
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:703:11)
+    at ServerResponse.header (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/response.js:795:10)
+    at ServerResponse.send (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/response.js:175:12)
+    at ServerResponse.json (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/response.js:279:15)
+    at ServerResponse.send (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/response.js:163:21)
+    at /usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/app.js:62:13
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:703:11)
+    at ServerResponse.header (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/response.js:795:10)
+    at ServerResponse.send (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/response.js:175:12)
+    at ServerResponse.json (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/response.js:279:15)
+    at ServerResponse.send (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/response.js:163:21)
+    at /usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/app.js:62:13
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+starting new timer
+starting new timer
+starting new timer
+server listening on 3000
+server listening on 3000
+server listening on 3000
+client connected with id =  0q44C49rjtRqUGctAAAB
+client connected with id =  a57mUVSLbI8O6rBwAAAD
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+server listening on 3000
+client connected with id =  D6PoIy7zdfLvlKNmAAAB
+client connected with id =  GLLe6yvgipsC7B8MAAAE
+client connected with id =  BfntoMLq6OKYl3W4AAAI
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+client connected with id =  _nNiJ08iNf1U-731AABU
+server listening on 3000
+client connected with id =  27gq3PajH6fmUzTXAAAB
+client connected with id =  zOtQtDOwQIJT7TAvAAAD
+client connected with id =  yPJbI3pMX8Er3OeSAAAF
+client connected with id =  B52xmzEksebyQGVIAAAH
+client connected with id =  ZkQgaUNcmPSTiVNNAAAJ
+client connected with id =  RuZ3WxB7EVLGP945AAAL
+server listening on 3000
+client connected with id =  Ik6X9nj8C_Sc-Cv9AAAB
+client connected with id =  JYyzpM6K0OpGHaJ2AAAD
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+client connected with id =  HZiWGKilzQxcOZGBAAAF
+client connected with id =  kbbO5j9TM6A5RJfJAAAH
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:703:11)
+    at ServerResponse.header (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/response.js:795:10)
+    at /usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/app.js:68:13
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at /usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:346:12)
+    at next (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:280:10)
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+server listening on 3000
+server listening on 3000
+client connected with id =  yTjS1nJyd-XpMMcuAAAB
+server listening on 3000
+client connected with id =  5jNkZ4nQpNB6ZPUmAAAB
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:703:11)
+    at ServerResponse.header (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/response.js:795:10)
+    at /usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/app.js:68:13
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at /usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:346:12)
+    at next (/usr/home/NoobXXX890290/domains/checkersmz.ct8.pl/public_nodejs/node_modules/express/lib/router/index.js:280:10)
+client connected with id =  FAoGxyKL9LQRKguNAAAD
+client connected with id =  At06_JpAmq84LAleAAAF
+client connected with id =  6dN3JU24Q1aFQwvwAAAH
+server listening on 3000
+client connected with id =  0OY6qlxQDrweUX27AAAB
+server listening on 3000
+client connected with id =  amVykcLNj3skQqIoAAAB
+client connected with id =  UdZr5aixiPw6R5uAAAAD
+server listening on 3000
+client connected with id =  IWz6tQRaktJ-9G8YAAAB
+client connected with id =  LificXrWkNfsn7LRAAAD
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+starting new timer
+server listening on 3000
+server listening on 3000
+server listening on 3000
+server listening on 3000
+server listening on 3000
+server listening on 3000
+server listening on 3000
+server listening on 3000
+server listening on 3000
+server listening on 3000
+server listening on 3000
+server listening on 3000
+server listening on 3000
+server listening on 3000
+server listening on 3000
+server listening on 3000
+server listening on 3000

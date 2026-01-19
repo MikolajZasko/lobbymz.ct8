@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04randomBoxes</title>
+    <script src="../libs/three.js"></script>
+    <script src="../libs/jq.js"></script>
+    <script src="skrypty/script4.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #comment {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #row {
+            display: flex;
+            flex-direction: row;
+        }
+
+
+        #row>button {
+            padding: 6px 10px;
+            margin: 10px;
+            background-color: orange;
+            border: 2px solid blue;
+            color: blue;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="comment">
+        <h1>04randomBoxes</h1>
+        <div id="row">
+            <button id="add">add Box</button>
+            <button id="del" onclick="">del Boxes</button>
+        </div>
+        <pre id="pre"></pre>
+    </div>
+
+    <div id="root"></div>
+</body>
+
+</html>

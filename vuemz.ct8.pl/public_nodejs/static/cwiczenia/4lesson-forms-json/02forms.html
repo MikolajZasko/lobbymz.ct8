@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>02forms</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        #app {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-evenly;
+        }
+
+        .formik {
+            background-color: azure;
+            padding: 10px;
+            border-radius: 20px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container>* {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .formik>* {
+            width: 50%;
+        }
+
+        .container>*>* {
+            font-size: 20px;
+            width: 150px;
+            margin: 5px;
+            display: block;
+        }
+
+        .button {
+            border-radius: 20px;
+            margin: 5px;
+            padding: 10px;
+            border: none;
+            background-color: blue;
+            color: white;
+        }
+
+        .button:hover {
+            background-color: aqua;
+            border-color: black;
+            cursor: pointer;
+        }
+
+        .buttonDisabled {
+            border-radius: 20px;
+            margin: 5px;
+            padding: 10px;
+            border: none;
+            background-color: grey;
+            opacity: 70%;
+            color: white;
+        }
+
+        .inputText {
+            border: none;
+            border-radius: 10px;
+            background-color: grey;
+            color: white;
+            padding: 5px;
+        }
+
+        .inputText::placeholder {
+            color: azure;
+            opacity: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>T: Forms</h1>
+
+    <div id="app">
+
+        <form action="/aaa" method="POST" @submit="submit" class="formik">
+            <div class="container">
+                <h2>fill in</h2>
+                <div>
+                    <input type="text" class="inputText" placeholder="Name" v-model="imie">
+                    <label>Length: {{imie.length}}</label>
+                </div>
+                <div>
+                    <input type="text" class="inputText" placeholder="Surname" v-model="nazwisko">
+                    <label>Length: {{nazwisko.length}}</label>
+                </div>
+                <div>
+                    <input type="text" class="inputText" placeholder="Job" v-model="zawod">
+                    <label>Length: {{zawod.length}}</label>
+                </div>
+                <div>
+                    <input type="text" class="inputText" placeholder="Age" v-model="wiek">
+                    <label>Length: {{wiek.length}}</label>
+                </div>
+                <div>
+                    <input type="text" class="inputText" placeholder="Pay" v-model="wynagrodzenie">
+                    <label>Length: {{wynagrodzenie.length}}</label>
+                </div>
+                <input type="submit" :class="submitButtonClass" :disabled="!isReady">
+
+            </div>
+            <div class="container">
+                <h2>check data</h2>
+                <h3>Name: {{imie}}</h3>
+                <h3>Surname: {{nazwisko}}</h3>
+                <h3>Job: {{wiek}}</h3>
+                <h3>Age: {{zawod}}</h3>
+                <h3>Pay: {{wynagrodzenie}}</h3>
+            </div>
+
+        </form>
+
+        <h2>{{info}}</h2>
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+
+            data() {
+                return {
+                    info: "info value",
+                    formBlock: true,
+                    imie: "",
+                    nazwisko: "",
+                    wiek: "",
+                    zawod: "",
+                    wynagrodzenie: "",
+                    submitButtonClass: "buttonDisabled"
+                }
+            },
+            methods: {
+                submit(e) {
+                    if (this.imie.length != 0 && this.nazwisko.length != 0 && this.wiek.length != 0 && this.zawod.length != 0 && this.wynagrodzenie.length != 0) {
+                        this.info = "form submitted"
+                    }
+                    else {
+                        e.preventDefault();
+                        this.info = "form IS NOT submitting"
+                    }
+                },
+            },
+            computed: {
+                isReady() {
+
+                    if (this.imie.length != 0 && this.nazwisko.length != 0 && this.wiek.length != 0 && this.zawod.length != 0 && this.wynagrodzenie.length != 0) {
+                        this.submitButtonClass = "button"
+                        return true
+                    }
+                    else {
+                        this.submitButtonClass = "buttonDisabled"
+                        return false
+                    }
+                }
+            }
+
+        })
+        app.config.productionTip = false; // Disable development tip
+
+        app.mount("#app")
+    </script>
+</body>
+
+</html>

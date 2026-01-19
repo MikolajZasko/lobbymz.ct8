@@ -1,0 +1,35 @@
+<div id="main">
+    <div id="left">
+        <h3>file info</h3>
+    </div>
+    <div id="right">
+        {{#if id}}
+        <div id="infoDisplay">
+            <div>
+                <pre><b>id: </b></pre>
+                <p>{{id}}</p>
+            </div>
+            <div>
+                <pre><b>name: </b></pre>
+                <p>{{name}}</p>
+            </div>
+            <div>
+                <pre><b>path: </b></pre>
+                <p>{{path}}</p>
+            </div>
+            <div>
+                <pre><b>size: </b></pre>
+                <p>{{size}}</p>
+            </div>
+            <div>
+                <pre><b>type: </b></pre>
+                <p>{{type}}</p>
+            </div>
+            <div>
+                <pre><b>savedate : </b></pre>
+                <p>{{savedate}}</p>
+            </div>
+        </div>
+        {{/if}}
+    </div>
+</div>

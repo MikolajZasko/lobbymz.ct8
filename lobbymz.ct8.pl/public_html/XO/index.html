@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #xoHolder {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            width: 100%;
+        }
+
+        #xoHolder>span {
+            padding: 20px;
+            font-size: 30px;
+            margin: 10px;
+            background-color: aqua;
+            border-radius: 20px;
+
+            user-select: none;
+        }
+
+        #xoHolder>span:hover {
+            cursor: pointer;
+        }
+
+        .cell {
+            background-color: grey;
+            width: 100px;
+            height: 100px;
+        }
+
+        #game {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+
+            border: 2px solid black;
+            border-radius: 32px 0 32px 0;
+        }
+
+        #row {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #c5 {
+            border: 2px solid black;
+        }
+
+        #c2,
+        #c8 {
+            border-right: 2px solid black;
+            border-left: 2px solid black;
+        }
+
+        #c4,
+        #c6 {
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+        }
+
+        #c1 {
+            border-radius: 30px 0 0 0;
+        }
+
+        #c9 {
+            border-radius: 0 0 30px 0;
+        }
+
+        /* .defaultCell {
+            background-image: none;
+        } */
+
+        .O_occupied {
+            background-image: url("images/O.png");
+            background-position: center;
+            background-size: cover;
+            width: 100px;
+            height: 100px;
+
+            /* background-color: red; */
+        }
+
+        .X_occupied {
+            background-image: url("images/X.png");
+            background-position: center;
+            background-size: cover;
+            width: 100px;
+            height: 100px;
+
+            /* background-color: blue; */
+        }
+
+        #gamerInfo {
+            border-radius: 20px;
+            background-color: limegreen !important;
+            width: 200px;
+            text-align: center;
+            /* height: 50px; */
+        }
+    </style>
+
+    <script>
+        let interval
+        let status = "notPicked"
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // 
+            interval = setInterval(() => {
+                statusCheck()
+            }, 1000);
+
+            // reset mysql db / set the value of status to nothing
+            resetMsql()
+        })
+
+        function resetMsql() {
+            let xhttp = new XMLHttpRequest();
+            xhttp.open("POST", "resetMysql.php", true)
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.send();
+        }
+
+        function statusCheck() {
+            // checking if X/O is picked
+            let xhttp = new XMLHttpRequest();
+            xhttp.open("POST", "statusCheck.php", true)
+
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    // check if picked
+                    let res = this.responseText
+                    let ob = JSON.parse(res);
+
+                    // edit CSS
+                    domDeleteOtherSymbol(ob.message)
+                }
+            }
+
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.send();
+
+            // delete status check if got symbol
+            if (status == "picked") {
+                // stop sending the request
+                clearInterval(interval)
+            }
+        }
+
+        function picked(symbol) {
+            // send data that you picked X/O
+            let xhttp = new XMLHttpRequest();
+            xhttp.open("POST", "lockSymbol.php", true)
+
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    // check if picked
+                    let res = this.responseText;
+                    let ob = JSON.parse(res);
+
+                    domDeleteOtherSymbol(ob.message)
+                }
+            }
+
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.send("symbol=" + symbol);
+
+            status = "picked"
+        }
+
+        function domDeleteOtherSymbol(msgSymbol) {
+            let O = document.getElementById("O")
+            let X = document.getElementById("X")
+
+            if (msgSymbol == "O") {
+                // we play O
+                X.style.display = "none"
+                O.onclick = ""
+                status = "picked"
+
+                // stop sending the request
+                clearInterval(interval)
+
+                // start checking current player
+                interval = setInterval(() => {
+                    turnCheck()
+                }, 1000);
+
+                // edit HTML
+                const message = document.getElementById("message")
+                message.innerHTML = "You play O"
+
+                const gameMessage = document.getElementById("gameMessage")
+                gameMessage.innerHTML = "Opponent's Turn"
+
+                const gamerInfo = document.getElementById("gamerInfo")
+                gamerInfo.style.display = "block"
+                gamerInfo.innerHTML = "You play O"
+            }
+            else if (msgSymbol == "X") {
+                // we play X
+                O.style.display = "none"
+                X.onclick = ""
+                status = "picked"
+
+                // stop sending the request
+                clearInterval(interval)
+
+                // start checking current player
+                interval = setInterval(() => {
+                    turnCheck()
+                }, 1000);
+
+                // edit HTML
+                const message = document.getElementById("message")
+                message.innerHTML = "You play X"
+
+                const gameMessage = document.getElementById("gameMessage")
+                gameMessage.innerHTML = "Your Turn"
+
+                const gamerInfo = document.getElementById("gamerInfo")
+                gamerInfo.style.display = "block"
+                gamerInfo.innerHTML = "You play X"
+            }
+
+        }
+
+        function occupy(cellID) {
+            // try to occupy the cell
+            let xhttp = new XMLHttpRequest();
+            xhttp.open("POST", "occupy.php", true)
+
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    let res = this.responseText;
+                    let ob = JSON.parse(res);
+
+                    if (ob.message != undefined) {
+                        const gameMessage = document.getElementById("gameMessage")
+
+                        gameMessage.innerHTML = ob.message
+                    }
+
+                    if (ob.status == "success") {
+                        updateCSS()
+                    }
+
+
+                    // console.log(ob);
+                }
+            }
+
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.send("cellID=" + cellID);
+        }
+
+        function updateCSS() {
+            // get all game data from db
+            let xhttp = new XMLHttpRequest();
+            xhttp.open("POST", "getData.php", true)
+
+            xhttp.onreadystatechange = function () {
+                let res = this.responseText;
+
+                if (res.length != 0) {
+                    let ob = JSON.parse(res);
+
+                    ob.forEach(element => {
+                        const cellID = element[0]
+                        const cellState = element[1]
+
+                        const cellDOM = document.getElementById(cellID)
+
+                        if (cellState == "0") {
+                            // cellDOM.className = "defaultCell"
+                        }
+                        else if (cellState == "O") {
+                            cellDOM.classList = "O_occupied cell"
+                        }
+                        else if (cellState == "X") {
+                            cellDOM.classList = "X_occupied cell"
+                        }
+                    });
+                }
+
+            }
+
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.send();
+        }
+
+        function turnCheck() {
+            // chcek the status of current player, if it is us, change css
+            let xhttp = new XMLHttpRequest();
+            xhttp.open("POST", "checkCurrentPlayer.php", true)
+
+            xhttp.onreadystatechange = function () {
+                let res = this.responseText;
+                if (res.length != 0) {
+                    let ob = JSON.parse(res);
+
+                    // update html
+                    const gameMessage = document.getElementById("gameMessage")
+                    gameMessage.innerHTML = ob.message
+
+                    updateCSS()
+
+                    // check if anyone won
+                    winCheck()
+                }
+            }
+
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.send();
+        }
+
+        function winCheck() {
+            // chcek the status of current player, if it is us, change css
+            let xhttp = new XMLHttpRequest();
+            xhttp.open("POST", "winCheck.php", true)
+
+            xhttp.onreadystatechange = function () {
+                let res = this.responseText;
+                if (res.length != 0 && res != "") {
+                    let ob = JSON.parse(res);
+
+                    if (ob.message != "noWinner") {
+                        // update HTML
+                        const gameMessage = document.getElementById("gameMessage")
+                        gameMessage.innerHTML = ob.message + " " + ob.winner
+
+                        // stop sending requests
+                        clearInterval(interval)
+
+                        // remove onclick
+                        const allCells = document.getElementsByClassName("cell")
+
+                        console.log(allCells);
+
+                        for (let i = 0; i < allCells.length; i++) {
+                            const cell = allCells[i];
+
+                            cell.onclick = ""
+                        }
+                    }
+                }
+
+            }
+
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.send();
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <div id="xoHolder">
+        <span onclick="picked('O')" id="O">O</span>
+        <span onclick="picked('X')" id="X">X</span>
+        <span id="gamerInfo" style="display: none;"></span>
+    </div>
+
+    <h2 id="message">X/O game</h2>
+    <h3 id="gameMessage"></h3>
+
+    <div id="game">
+        <div id="row">
+            <div id="c1" class="cell" onclick="occupy('c1')"></div>
+            <div id="c2" class="cell" onclick="occupy('c2')"></div>
+            <div id="c3" class="cell" onclick="occupy('c3')"></div>
+        </div>
+        <div id="row">
+            <div id="c4" class="cell" onclick="occupy('c4')"></div>
+            <div id="c5" class="cell" onclick="occupy('c5')"></div>
+            <div id="c6" class="cell" onclick="occupy('c6')"></div>
+        </div>
+        <div id="row">
+            <div id="c7" class="cell" onclick="occupy('c7')"></div>
+            <div id="c8" class="cell" onclick="occupy('c8')"></div>
+            <div id="c9" class="cell" onclick="occupy('c9')"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

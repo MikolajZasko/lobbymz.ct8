@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>07-methods_v-bind</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        * {
+            text-align: center;
+        }
+
+        body {
+            margin: 0;
+            overflow: hidden;
+            /* text-align: center; */
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app">
+        <table>
+            <tr>
+                <td v-for="item in cars">
+                    <h2>{{item.marka}}-{{item.model}}-{{item.rocznik}}</h2>
+                    <img :src="item.img" v-bind:alt="item.model">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+
+            data() {
+                return {
+                    cars: [
+                        {
+                            id: 1,
+                            marka: "fiat",
+                            model: "punto",
+                            rocznik: "2002",
+                            img: "../gfx/car.jpg"
+                        },
+                        {
+                            id: 2,
+                            marka: "Jons",
+                            model: "JKDHASJ",
+                            rocznik: "9999",
+                            img: "../gfx/car.jpg"
+                        },
+                        {
+                            id: 3,
+                            marka: "auuTo",
+                            model: "kajs",
+                            rocznik: "1",
+                            img: "../gfx/car.jpg"
+                        },
+                        {
+                            id: 4,
+                            marka: "sdfsa",
+                            model: "punsdfsadto",
+                            rocznik: "2222",
+                            img: "../gfx/car.jpg"
+                        },
+
+                    ]
+                }
+            },
+            methods: {
+                getCarInfo(id) {
+                    return this.cars[id]
+                },
+                getCarImg(id) {
+                    return this.cars[id].img
+                }
+            }
+
+
+
+        })
+        app.config.productionTip = false; // Disable development tip
+
+        app.mount("#app")
+    </script>
+</body>
+
+</html>

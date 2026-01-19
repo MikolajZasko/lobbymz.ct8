@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>06v-model</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            /* text-align: center; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app">
+        <h2>Info from txt field: {{ message }}</h2>
+
+        <input v-model="message" type="text">
+
+        <h5>Chosen in select: {{ selected }}</h5>
+
+        <select v-model="selected">
+            <option>aaa</option>
+            <option>bbb</option>
+            <option>ccc</option>
+        </select>
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+
+
+            data() {
+                return {
+                    message: "content of txt field",
+                    selected: "aaa"
+                }
+            }
+        })
+        app.config.productionTip = false; // Disable development tip
+
+        app.mount("#app")
+
+        app.message = "test"
+    </script>
+</body>
+
+</html>

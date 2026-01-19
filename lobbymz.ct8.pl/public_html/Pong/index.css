@@ -1,0 +1,38 @@
+#main {
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+}
+
+#paleta {
+    width: 100px;
+    height: 5px;
+    background-color: blue;
+    position: absolute;
+
+    /* top: 500px;
+    left: 200px; */
+}
+
+#ball {
+    width: 5px;
+    height: 5px;
+    background-color: green;
+
+    position: absolute;
+
+    z-index: 5;
+
+    /* top: 495px;
+    left: 250px; */
+}
+
+.div {
+    box-sizing: border-box;
+    border: 1px solid black;
+
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+}

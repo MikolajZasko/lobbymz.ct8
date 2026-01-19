@@ -1,0 +1,146 @@
+<div id="main">
+    <div id="left" style="display: flex; flex-direction: column">
+        <button id="nowyFolder">new directory</button>
+        <button id="nowyPlik">new test file</button>
+        {{#if rename}}
+        <button id="zmienNazwe">change directory name</button>
+        {{!-- this else is needed for some reason, if not present then error occurs --}}
+        {{else}}
+        <button id="zmienNazwe" style="display: none;">change directory name</button>
+        {{/if}}
+        <form enctype="multipart/form-data" method="POST" action="/wybierzPlik">
+            <input required multiple type="file" id="wybierzPlik" name="wybierzPlik">
+            <button type="submit">Send</button>
+        </form>
+
+    </div>
+    <div id="right">
+        <div id="dirs">
+            {{#each raodArr}}
+            <a href="filemanager2?path={{href}}">{{name}}</a>
+            {{#if last}}
+            {{else}}
+            >
+            {{/if}}
+            {{/each}}
+            <h1>dirs</h1>
+            <div>
+                {{#each files}}
+                {{#if directory}}
+                <div class="dir">
+                    <img src="/gfx/dir.png" alt="dir.png" class="fm2Img">
+                    <a href="/filemanager2?path={{root}}/{{name}}">{{name}}</a>
+                    <a href="/usunKatalog?name={{name}}&root={{root}}"
+                        onclick="return confirm('delete permanently?')">X</a>
+                </div>
+                {{/if}}
+                {{/each}}
+            </div>
+
+        </div>
+        <div id="files">
+            <h1>files</h1>
+            <div>
+                {{#each files}}
+                {{#if file}}
+                <div class="file">
+                    <img src="{{extensionPath}}" alt="extension" class="fm2Img">
+                    <a href="/edit?name={{root}}/{{name}}">{{name}}</a>
+                    <a href="/usunPlik?name={{name}}&root={{root}}"
+                        onclick="return confirm('delete permanently?')">X</a>
+                </div>
+                {{/if}}
+                {{#if image}}
+                <div class="file">
+                    <img src="{{extensionPath}}" alt="extension" class="fm2Img">
+                    <a href="/image?name={{root}}/{{name}}">{{name}}</a>
+                    <a href="/usunPlik?name={{name}}&root={{root}}"
+                        onclick="return confirm('delete permanently?')">X</a>
+                </div>
+                {{/if}}
+                {{/each}}
+            </div>
+
+        </div>
+    </div>
+</div>
+<dialog id="dialogDir">
+    <form action='/nowyFolder'>
+        <label for='name'>new directory name</label>
+        <input type='text' id='name' name='name'>
+        <button type='submit'>Send</button>
+        <button type='button' class='cancel'>cancel</button>
+        <input class="hidden" type="hidden" name="root" value="{{root}}" />
+        <input class="hidden" type="text" name="folder" />
+    </form>
+</dialog>
+
+<dialog id="dialogFile">
+    <form action='/nowyPlik'>
+        <label for='name'>new file name</label>
+        <input type='text' id='name' name='name'>
+        <button type='submit'>Send</button>
+        <button type='button' class='cancel'>cancel</button>
+        <input class="hidden" type="hidden" name="root" value="{{root}}" />
+        <input class="hidden" type="text" name="folder" />
+    </form>
+</dialog>
+
+<dialog id="dialogRename">
+    <form action='/zmienNazwe'>
+        <label for='name'>new name for directory <b style="font-size: 20px;">{{name}}</b></label>
+        <input type='text' id='name' name='name'>
+        <button type='submit'>ok</button>
+        <button type='button' class='cancel'>cancel</button>
+        <input class="hidden" type="hidden" name="root" value="{{root}}" />
+        <input class="hidden" type="text" name="folder" />
+    </form>
+</dialog>
+
+<script>
+    //
+    //fix this
+    //
+
+    let cancels = document.getElementsByClassName("cancel")
+
+    for (let i = 0; i < cancels.length; i++) {
+        let cancel = cancels[i]
+
+        cancel.addEventListener("click", function () {
+            dialogDir.close()
+            dialogFile.close()
+            dialogRename.close()
+        })
+
+    }
+
+    let nowyFolder = document.getElementById("nowyFolder")
+
+    nowyFolder.addEventListener("click", function () {
+        let dialogDir = document.getElementById("dialogDir")
+
+        dialogDir.showModal()
+
+    })
+
+    let nowyPlik = document.getElementById("nowyPlik")
+
+    nowyPlik.addEventListener("click", function () {
+        let dialogFile = document.getElementById("dialogFile")
+
+        dialogFile.showModal()
+
+    })
+
+    let zmienNazwe = document.getElementById("zmienNazwe")
+
+    zmienNazwe.addEventListener("click", function () {
+        let dialogRename = document.getElementById("dialogRename")
+
+        dialogRename.showModal()
+
+    })
+
+
+</script>

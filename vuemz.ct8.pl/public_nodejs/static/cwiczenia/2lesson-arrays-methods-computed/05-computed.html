@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>05-computed</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            /* text-align: center; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app">
+        <h2>car: {{ getCar()}} </h2>
+        <h2>production year: {{getYear() }} </h2>
+
+        <h2>car: {{ getCar()}} </h2>
+        <h2>production year: {{getYear() }} </h2>
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+
+            data() {
+                return {
+                    type: "Fiat",
+                    year: 1989,
+                    model: "Panda"
+                }
+            },
+            methods: {
+                getCar() {
+                    const car = "This is : " + this.type + "" + this.model
+                    console.log(car)
+                    return this.type + "" + this.model
+                },
+                getYear() {
+                    const year = "Produced in: " + this.year
+                    console.log(year)
+                    return year
+                }
+            }
+
+
+
+        })
+        app.config.productionTip = false; // Disable development tip
+
+        app.mount("#app")
+    </script>
+</body>
+
+</html>

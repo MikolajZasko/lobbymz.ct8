@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>06forms-json_from_server</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        #app {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-evenly;
+        }
+
+        .formik {
+            background-color: azure;
+            padding: 10px;
+            border-radius: 20px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start
+        }
+
+        .container>* {
+            display: flex;
+            flex-direction: row;
+            align-items: center
+        }
+
+        .formik>* {
+            width: 33%;
+        }
+
+        .container>*>* {
+            font-size: 20px;
+            width: 100px;
+            margin: 5px;
+            display: block;
+        }
+
+        .button {
+            border-radius: 20px;
+            margin: 5px;
+            padding: 10px;
+            border: none;
+            background-color: blue;
+            color: white;
+        }
+
+        .button:hover {
+            background-color: aqua;
+            border-color: black;
+            cursor: pointer;
+        }
+
+        .buttonDisabled {
+            border-radius: 20px;
+            margin: 5px;
+            padding: 10px;
+            border: none;
+            background-color: grey;
+            opacity: 70%;
+            color: white;
+        }
+
+        .inputText {
+            border: none;
+            border-radius: 10px;
+            background-color: grey;
+            color: white;
+            padding: 5px;
+        }
+
+        .inputText::placeholder {
+            color: azure;
+            opacity: 50%;
+        }
+
+        .checkbox,
+        .radio {
+            width: 30px;
+            height: 30px;
+        }
+
+        .smallImg {
+            width: 100px;
+            height: 100px;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+
+        }
+
+        .row>div {
+            width: 100%;
+
+        }
+
+        .diveks {
+            display: block;
+            display: flex;
+            flex-direction: row;
+            align-items: center
+        }
+
+        .hiddenConfirm {
+            display: none;
+        }
+
+        .confirmDisplayed {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>T: forms-json_from_server</h1>
+
+    <div id="app">
+
+        <form action="/aaa" method="POST" @submit="submit" class="formik">
+            <div class="container" style="width: 100%;">
+                <div class="row">
+                    <div>
+                        <h2>product</h2>
+                        <template v-for="product of products">
+                            <div style="width: 300px;" class="diveks">
+                                <input type="checkbox" v-model="product.checked" class="checkbox">{{product.name}}
+                            </div>
+                        </template>
+                    </div>
+                    <div v-bind:class="confirmWindowClass" :disabled="!displayConfirm">
+                        <h2>sum up:</h2>
+                        <h3>shopping</h3>
+                        <template v-for="product of products">
+                            <li v-if="product.checked==true">{{product.name}}</li>
+                        </template>
+                        <h3>delivery type: {{deliveryM}}</h3>
+                        <h3>payment method: {{paymentM}}</h3>
+                        <input type="submit" :class="submitButtonClass" :disabled="!isReady">
+                    </div>
+
+                </div>
+            </div>
+            <div class="container">
+                <h2>delivery type {{deliveryM}}</h2>
+                <template v-for="delivery in deliveries">
+                    <div style="width: 300px;">
+                        <img v-bind:src="delivery.imgSrc" v-bind:alt="delivery.imgSrc" class="smallImg">
+                        <input type="radio" v-model="deliveryM" v-bind:value="delivery.name" class="radio">
+                        <label>{{delivery.name}}</label>
+                    </div>
+                </template>
+            </div>
+            <div class="container">
+                <h2>payment method {{paymentM}}</h2>
+                <template v-for="payment in payments">
+                    <div style="width: 300px;">
+                        <img v-bind:src="payment.imgSrc" v-bind:alt="payment.imgSrc" class="smallImg">
+                        <input type="radio" v-model="paymentM" v-bind:value="payment.name" class="radio">
+                        <label>{{payment.name}}</label>
+                    </div>
+                </template>
+            </div>
+            <br>
+            <div style="display: flex; flex-direction: column;align-items: center">
+                <input type="checkbox" name="formBlock" v-bind:checked="formBlock" @input="changeFormBlock"
+                    class="checkbox">
+                <label>agree to terms</label>
+            </div>
+
+
+
+        </form>
+
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+
+            data() {
+                return {
+                    products: [],
+                    deliveries: [],
+                    payments: [],
+                    deliveryM: "Kurier",
+                    paymentM: "kartą",
+                    formBlock: false,
+                    submitButtonClass: "buttonDisabled",
+                    confirmWindowClass: "hiddenConfirm",
+                }
+            },
+            methods: {
+                submit(e) {
+                    // if () {
+                    //     this.info = "formularz zsubmitowany"
+                    // }
+                    // else {
+                    //     e.preventDefault();
+                    //     this.info = "formularz się nie submituje"
+                    // }
+                },
+                changeFormBlock() {
+                    // if (this.formBlock == true) {
+                    //     this.formBlock = false
+                    // }
+                    // else {
+                    //     this.formBlock = true
+                    // }
+                    this.formBlock = !this.formBlock
+                }, longerCurrency(shortCurrency) {
+                    if (shortCurrency == "PLN") {
+                        return "ZŁOTYCH"
+                    }
+                    else if (shortCurrency == "GBP") {
+                        return "POUNDS"
+                    }
+                    else if (shortCurrency == "USD") {
+                        return "DOLLARS"
+                    }
+                    else {
+                        return shortCurrency
+                    }
+                },
+                checkCheckboxes() {
+
+                }
+
+            },
+            computed: {
+                isReady() {
+                    let checkCheckboxes
+
+                    this.products.forEach(product => {
+                        if (product.checked != false) {
+                            checkCheckboxes = true
+                        }
+                    });
+
+                    if (this.formBlock == true && this.deliveryM != false && this.paymentM != false && checkCheckboxes == true) {
+                        this.submitButtonClass = "button"
+                        return true
+                    }
+                    else {
+                        this.submitButtonClass = "buttonDisabled"
+                        return false
+                    }
+                },
+                displayConfirm() {
+                    let checkCheckboxes
+
+                    this.products.forEach(product => {
+                        if (product.checked != false) {
+                            checkCheckboxes = true
+                        }
+                    });
+
+                    if (checkCheckboxes == true) {
+                        this.confirmWindowClass = "confirmDisplayed"
+                        return true
+                    }
+                    else {
+                        this.confirmWindowClass = "hiddenConfirm"
+                        return false
+                    }
+                }
+            },
+            created() {
+                console.log("created", new Date().getTime())
+                const options = {
+                    method: "GET",
+                    headers: {
+                        "Content-Type": "application/json"
+                    }
+                }
+
+                fetch("/fetchServerData", options)
+                    .then(response => response.json()) // konwersja na obiekt json, jeśli konieczne
+                    .then(data => {
+                        app.products = data.products
+                        app.payments = data.payments
+                        app.deliveries = data.deliveries
+                    }) // sformatowane z wcięciami dane odpowiedzi z serwera
+                    .catch(error => console.log(error));
+            },
+            mounted() {
+                console.log("mounted", new Date().getTime())
+
+
+            }
+
+        }).mount("#app")
+
+        // app.mount("#app")
+    </script>
+</body>
+
+</html>

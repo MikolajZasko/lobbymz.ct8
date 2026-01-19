@@ -1,0 +1,132 @@
+import { Location } from "./Location.js"
+import { Item } from "./Item.js"
+import { Event } from "./Event.js"
+
+export const data = {
+    heldItem: "nothing",
+    locations: [
+        [],
+        [
+            "",
+            new Location("You are inside a brimstone mine", "Dratewka/img/11.gif", "rgb(235,211,64)", ["", "", "", "E"]),
+            new Location("You are at the entrance to the mine", "Dratewka/img/12.gif", "rgb(89,93,87)", ["", "W", "", "E"]),
+            new Location("A hill", "Dratewka/img/13.gif", "rgb(117,237,243)", ["S", "W", "", "E"], [31]),
+            new Location("Some bushes", "Dratewka/img/14.gif", "rgb(202,230,51)", ["", "W", "", "E"]),
+            new Location("An old deserted hut", "Dratewka/img/15.gif", "rgb(220,204,61)", ["", "W", "", "E"], [27]),
+            new Location("The edge of a forest", "Dratewka/img/16.gif", "rgb(167,245,63)", ["", "W", "", "E"]),
+            new Location("A dark forest", "Dratewka/img/17.gif", "rgb(140,253,99)", ["S", "W", "", ""], [14]),
+        ],
+        [
+            "",
+            new Location("A man nearby making tar", "Dratewka/img/21.gif", "rgb(255,190,99)", ["S", "", "", "E"]),
+            new Location("A timber yard", "Dratewka/img/22.gif", "rgb(255,190,99)", ["S", "W", "", "E"]),
+            new Location("You are by a roadside shrine", "Dratewka/img/23.gif", "rgb(167,245,63)", ["S", "W", "N", "E"], [10]),
+            new Location("You are by a small chapel", "Dratewka/img/24.gif", "rgb(212,229,36)", ["", "W", "", "E"]),
+            new Location("You are on a road leading to a wood", "Dratewka/img/25.gif", "rgb(167,245,63)", ["S", "W", "", "E"]),
+            new Location("You are in a forest", "Dratewka/img/26 i 65.gif", "rgb(167,245,63)", ["", "W", "", "E"]),
+            new Location("You are in a deep forest", "Dratewka/img/27 i 67.gif", "rgb(140,253,99)", ["", "W", "N", ""], [18]),
+        ],
+        [
+            "",
+            new Location("You are by the Vistula River", "Dratewka/img/31.gif", "rgb(122,232,252)", ["", "", "N", "E"]),
+            new Location("You are by the Vistula River", "Dratewka/img/32.gif", "rgb(140,214,255)", ["", "W", "N", ""], [32]),
+            new Location("You are on a bridge over river", "Dratewka/img/33.gif", "rgb(108,181,242)", ["S", "", "N", ""]),
+            new Location("You are by the old tavern", "Dratewka/img/34.gif", "rgb(255,189,117)", ["", "", "", "E"]),
+            new Location("You are at the town's end", "Dratewka/img/35.gif", "rgb(255,190,99)", ["S", "W", "N", ""]),
+            new Location("You are in a butcher's shop", "Dratewka/img/36.gif", "rgb(255,188,102)", ["S", "", "", ""]),
+            new Location("You are in a cooper's house", "Dratewka/img/37.gif", "rgb(255,188,102)", ["S", "", "", ""]),
+        ],
+        [
+            "",
+            new Location("You are in the Wawel Castle", "Dratewka/img/41.gif", "rgb(255,176,141)", ["", "", "", "E"]),
+            new Location("You are inside a dragon's cave", "Dratewka/img/42.gif", "rgb(198,205,193)", ["", "W?", "", "E"]),
+            new Location("A perfect place to set a trap", "Dratewka/img/43.gif", "rgb(255,176,141)", ["", "W", "N", ""]),
+            new Location("You are by the water mill", "Dratewka/img/44.gif", "rgb(255,190,99)", ["", "", "", "E"], [21]),
+            new Location("You are at a main crossroad", "Dratewka/img/45.gif", "rgb(255,190,99)", ["S", "W", "N", "E"]),
+            new Location("You are on a town street", "Dratewka/img/46.gif", "rgb(255,190,99)", ["", "W", "N", "E"]),
+            new Location("You are in a frontyard of your house", "Dratewka/img/47.gif", "rgb(255,190,99)", ["S", "W", "N", ""]),
+        ],
+        [
+            "",
+            "",
+            "",
+            "",
+            new Location("You are by a swift stream", "Dratewka/img/54.gif", "rgb(108,181,242)", ["", "", "", "E"]),
+            new Location("You are on a street leading forest", "Dratewka/img/55.gif", "rgb(255,190,99)", ["S", "W", "N", ""], [33]),
+            new Location("You are in a woodcutter's backyard", "Dratewka/img/56.gif", "rgb(255,190,99)", ["S", "", "", ""]),
+            new Location("You are in a shoemaker's house", "Dratewka/img/57.gif", "rgb(254,194,97)", ["", "", "N", ""]),
+        ],
+        [
+            "",
+            "",
+            "",
+            "",
+            new Location("You are in a bleak funeral house", "Dratewka/img/64.gif", "rgb(254,194,97)", ["", "", "", "E"], [24]),
+            new Location("You are on a path leading to the wood", "Dratewka/img/26 i 65.gif", "rgb(167,245,63)", ["", "W", "N", "E"]),
+            new Location("You are at the edge of a forest", "Dratewka/img/66.gif", "rgb(167,245,63)", ["", "W", "N", "E"]),
+            new Location("You are in a deep forest", "Dratewka/img/27 i 67.gif", "rgb(140,253,99)", ["", "W", "", ""]),
+        ]
+
+    ],
+    items: [
+        [],
+        [
+            new Item(10, "a KEY", "1", "KEY"),
+            new Item(11, "an AXE", "1", "AXE"),
+            new Item(12, "STICKS", "1", "STICKS"),
+            new Item(13, "sheeplegs", "0", "sheeplegs"),
+            new Item(14, "MUSHROOMS", "1", "MUSHROOMS"),
+            new Item(15, "MONEY", "1", "MONEY"),
+            new Item(16, "a BARREL", "1", "BARREL"),
+            new Item(17, "a sheeptrunk", "0", "sheeptrunk"),
+            new Item(18, "BERRIES", "1", "BERRIES"),
+            new Item(19, "WOOL", "1", "WOOL")
+        ],
+        [
+            new Item(20, "a sheepskin", "0", "sheepskin"),
+            new Item(21, "a BAG", "1", "BAG"),
+            new Item(22, "a RAG", "1", "RAG"),
+            new Item(23, "a sheephead", "0", "sheephead"),
+            new Item(24, "a SPADE", "1", "SPADE"),
+            new Item(25, "SULPHUR", "1", "SULPHUR"),
+            new Item(26, "a solid poison", "0", "solid poison"),
+            new Item(27, "a BUCKET", "1", "BUCKET"),
+            new Item(28, "TAR", "1", "TAR"),
+            new Item(29, "a liquid poison", "0", "liquid poison"),
+        ],
+        [
+            new Item(30, "a dead dragon", "0", "dead dragon"),
+            new Item(31, "a STONE", "1", "STONE"),
+            new Item(32, "a FISH", "1", "FISH"),
+            new Item(33, "a KNIFE", "1", "KNIFE"),
+            new Item(34, "a DRAGONSKIN", "1", "DRAGONSKIN"),
+            new Item(35, "a dragonskin SHOES", "1", "SHOES"),
+            new Item(36, "a PRIZE", "1", "PRIZE"),
+            new Item(37, "a SHEEP", "1", "SHEEP")
+        ]
+    ],
+    events: [
+        new Event(10, 56, 11, "You opened a tool shed and took an axe"),
+        new Event(11, 67, 12, "You cut sticks for sheeplegs"),
+        new Event(12, 43, 13, "You prepared legs for your fake sheep", "OK"),
+        new Event(14, 34, 15, "The tavern owner paid you money"),
+        new Event(15, 37, 16, "The cooper sold you a new barrel"),
+        new Event(16, 43, 17, "You made a nice sheeptrunk", "OK"),
+        new Event(18, 36, 19, "The butcher gave you wool"),
+        new Event(19, 43, 20, "You prepared skin for your fake sheep", "OK"),
+        new Event(21, 57, 22, "You used your tools to make a rag"),
+        new Event(22, 43, 23, "You made a fake sheephead", "OK"),
+        new Event(24, 11, 25, "You are digging...", false, ["and digging...", "That's enough sulphur for you"]),
+        new Event(25, 43, 26, "You prepared a solid poison", "OK"),
+        new Event(27, 21, 28, "You got a bucket full of tar"),
+        new Event(28, 43, 29, "You prepared a liquid poison", "OK"),
+        new Event(37, 43, 30, "The dragon noticed your gift...", "dragonIsDead", ["The dragon ate your sheep and died!"]),
+        new Event(33, 43, 34, "You cut a piece of dragon's skin", "isDragonDead"),
+        new Event(34, 57, 35, "You used your tools to make shoes"),
+        new Event(35, 41, 36, "The King is impressed by your shoes"),
+        new Event(36, "none", "none", "none")
+    ],
+    dragonIsDead: false,
+    sheepPartsCounter: 0,
+    sheepSpawned: false
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>03v-on</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        #app {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-evenly;
+        }
+
+        #divek {
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            border: 10px solid black;
+        }
+
+        .active {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>T: v-on / @</h1>
+
+    <div id="app">
+
+        <form action="#" id="form">
+            <div v-for="item in items">
+                <p v-bind:class="{'active':item.checked}">{{item.text}}</p>
+                <input type="checkbox" v-model="item.checked">
+            </div>
+        </form>
+
+        <input type="text" v-on:keyup.enter="addItem" id="input">
+        <button type="button" @click="addItem">add item</button>
+
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+
+            data() {
+                return {
+                    items: [
+                        { text: "element 1", checked: true },
+                        { text: "element 2", checked: false },
+                        { text: "element 3", checked: false },
+                    ]
+                }
+            },
+            methods: {
+                addItem() {
+                    console.log("additem");
+                    const input = document.getElementById("input")
+                    const text = input.value
+
+                    const obj = { text: text, checked: false }
+                    this.items.push(obj)
+
+                    // clear input
+                    input.value = ""
+                },
+                // genElements() {
+                //     // let
+                // }
+            }
+
+        })
+        app.config.productionTip = false; // Disable development tip
+
+        app.mount("#app")
+    </script>
+</body>
+
+</html>

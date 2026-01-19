@@ -1,0 +1,24 @@
+<div id="main">
+    <div id="left">
+        <h3>filemanager</h3>
+        <a href="/deleteTable">delete files data from array</a>
+    </div>
+    <div id="right">
+        <table id="fileDisplay">
+            <tr>
+                <th>id</th>
+                <th>img</th>
+                <th>name</th>
+                <th>size</th>
+                <th>type</th>
+                <th>-</th>
+                <th>-</th>
+                <th>-</th>
+                <th>-</th>
+            </tr>
+            {{#each allFiles}}
+            {{> oneFile}}
+            {{/each}}
+        </table>
+    </div>
+</div>

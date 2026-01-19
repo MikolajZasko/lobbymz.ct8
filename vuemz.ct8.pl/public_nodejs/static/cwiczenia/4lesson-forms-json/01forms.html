@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>01forms</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        #app {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-evenly;
+        }
+
+        .formik {
+            background-color: azure;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        .formik>* {
+            font-size: 20px;
+        }
+
+        .button {
+            border-radius: 20px;
+            margin: 5px;
+            padding: 10px;
+            border: none;
+            background-color: blue;
+            color: white;
+        }
+
+        .button:hover {
+            background-color: aqua;
+            border-color: black;
+            cursor: pointer;
+        }
+
+        .inputText {
+            border: none;
+            border-radius: 10px;
+            background-color: grey;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>T: Forms</h1>
+
+    <div id="app">
+
+        <form action="/aaa" method="POST" @reset="reset" @submit="submit" class="formik">
+            <input type="text" class="inputText">
+            <input type="reset" value="reset" class="button">
+            <input type="submit" value="submit" class="button">
+            <input type="checkbox" name="formBlock" v-bind:checked="formBlock" @input="changeFormBlock">
+            <label>blokada forma</label>
+        </form>
+
+        <h2>{{info}}</h2>
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+
+            data() {
+                return {
+                    info: "info value",
+                    formBlock: true
+                }
+            },
+            methods: {
+                reset(e) {
+                    if (this.formBlock == true) {
+                        e.preventDefault();
+                        this.info = "form IS NOT resetting"
+                    }
+                    else {
+                        this.info = "form reseted"
+                    }
+                },
+                submit(e) {
+                    if (this.formBlock == true) {
+                        e.preventDefault();
+                        this.info = "form IS NOT submitting"
+                    }
+                    else {
+                        this.info = "form zsubmitowany"
+                    }
+                },
+
+            },
+            computed: {
+
+            }
+
+        })
+        app.config.productionTip = false; // Disable development tip
+
+        app.mount("#app")
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>01-events</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        #app {
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>T: v-on</h1>
+
+    <div id="app">
+        <div class="cwDiv">
+            <h2>cw 1</h2>
+            <div v-on:click="onClick">CLICK ME!</div>
+        </div>
+        <div class="cwDiv">
+            <h2>cw 2</h2>
+            <input type="checkbox" v-on:click="onCheckbox">
+        </div>
+        <div class="cwDiv">
+            <h2>cw 3</h2>
+            <button v-on:click="onClick">CLICK</button>
+        </div>
+        <div class="cwDiv">
+            <h2>cw 4</h2>
+            <select v-on:change="onChange" id="select">
+                <option>[select]</option>
+                <option>option 1</option>
+                <option>option 2</option>
+            </select>
+            <h3>{{selected}}</h3>
+        </div>
+        <div class="cwDiv">
+            <h2>cw 5</h2>
+            <input id="range" type="range" v-on:input="onInput" min="0" max="100">
+            <h3>{{rangeValue}}</h3>
+        </div>
+        <div class="cwDiv">
+            <h2>cw 6</h2>
+            <button type="button" v-on:click="add">button 1 increases value by 1</button>
+            <h3>{{counter}}</h3>
+        </div>
+        <div class="cwDiv">
+            <h2>cw 6</h2>
+            <button type="button" v-on:click="power">button 2 compounds (ex: 2^2)</button>
+            <h3>{{powerCounter}}</h3>
+        </div>
+
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+
+            data() {
+                return {
+                    selected: "not selected",
+                    inputValue: "",
+                    rangeValue: 0,
+                    counter: 0,
+                    powerCounter: 0
+                }
+            },
+            methods: {
+                onClick() {
+                    alert("I was clicked : /")
+                },
+                onCheckbox(e) {
+                    alert(`checkbox == ${e.target.checked}`)
+                },
+                onChange(e) {
+                    this.selected = e.target.value
+
+                    // alert(`selected == ${e.target.value}`)
+                },
+                onInput(e) {
+                    this.rangeValue = e.target.value
+                },
+                add() {
+                    this.counter += 1
+                },
+                power() {
+                    this.powerCounter = this.counter * this.counter
+                }
+            }
+
+        })
+        app.config.productionTip = false; // Disable development tip
+
+        app.mount("#app")
+    </script>
+</body>
+
+</html>

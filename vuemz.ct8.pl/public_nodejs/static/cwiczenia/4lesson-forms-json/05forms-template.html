@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>05forms-template</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        #app {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-evenly;
+        }
+
+        .formik {
+            background-color: azure;
+            padding: 10px;
+            border-radius: 20px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container>* {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .formik>* {
+            width: 33%;
+        }
+
+        .container>*>* {
+            font-size: 20px;
+            width: 100px;
+            margin: 5px;
+            display: block;
+        }
+
+        .button {
+            border-radius: 20px;
+            margin: 5px;
+            padding: 10px;
+            border: none;
+            background-color: blue;
+            color: white;
+        }
+
+        .button:hover {
+            background-color: aqua;
+            border-color: black;
+            cursor: pointer;
+        }
+
+        .buttonDisabled {
+            border-radius: 20px;
+            margin: 5px;
+            padding: 10px;
+            border: none;
+            background-color: grey;
+            opacity: 70%;
+            color: white;
+        }
+
+        .inputText {
+            border: none;
+            border-radius: 10px;
+            background-color: grey;
+            color: white;
+            padding: 5px;
+        }
+
+        .inputText::placeholder {
+            color: azure;
+            opacity: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>T: forms-template</h1>
+
+    <div id="app">
+
+        <form action="/aaa" method="POST" @submit="submit" class="formik">
+            <div class="container">
+                <h2>accessories</h2>
+                <template v-for="product of products">
+                    <div style="width: 200px;">
+                        <input type="checkbox" v-model="product.checked">{{product.name}}
+                    </div>
+                    <span>{{product.price}} {{longerCurrency(product.currency)}}</span>
+                </template>
+            </div>
+            <div class="container">
+                <h2>forma odbioru</h2>
+                <template v-for="option in options">
+                    <div>
+                        <input type="radio" v-model="dostawa" v-bind:value="option.option">
+                        <label>{{option.option}}</label>
+                    </div>
+                </template>
+
+                <template v-for="delivery in deliveries">
+                    <div style="width: 300px;">
+                        <input type="radio" v-model="delivery" v-bind:value="delivery.name" name="delivery"
+                            class="radio">
+                        <label>{{delivery.name}}</label>
+                    </div>
+                </template>
+
+                <!-- <div>
+                    <input type="radio" v-model="dostawa" value="poczta">
+                    <label>poczta</label>
+                </div>
+                <div>
+                    <input type="radio" v-model="dostawa" value="osobiscie">
+                    <label>osobiscie</label>
+                </div> -->
+                <div>
+                    <select v-model="dostawa">
+                        <template v-for="option in options">
+                            <option v-bind:value="option.option">{{option.option}}</option>
+                        </template>
+                        <!-- <option value="kurier">kurier</option>
+                        <option value="poczta">poczta</option>
+                        <option value="osobiscie">osobiscie</option> -->
+                    </select>
+                </div>
+            </div>
+            <div class="container">
+                <h2>Confirm</h2>
+                <input type="checkbox" name="formBlock" v-bind:checked="formBlock" @input="changeFormBlock">
+                <label>form block</label>
+                <input type="submit" :class="submitButtonClass" :disabled="!isReady">
+
+            </div>
+
+        </form>
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+
+            data() {
+                return {
+                    products: [
+                        { name: "Mouse", checked: false, price: 30, currency: "PLN" },
+                        { name: "LapTok", checked: false, price: 2500, currency: "GBP" },
+                        { name: "CoNputer", checked: false, price: 4000, currency: "PLN" },
+                        { name: "Monitor", checked: false, price: 1000, currency: "GBP" },
+                        { name: "Headphones", checked: false, price: 600, currency: "USD" }
+                    ],
+                    options: [
+
+                        { option: 'Kurier' },
+                        { option: 'Post' },
+                        { option: 'Herself' }
+
+                    ],
+                    dostawa: false,
+                    formBlock: false,
+                    submitButtonClass: "buttonDisabled",
+                }
+            },
+            methods: {
+                submit(e) {
+                    // if () {
+                    //     this.info = "formularz zsubmitowany"
+                    // }
+                    // else {
+                    //     e.preventDefault();
+                    //     this.info = "formularz się nie submituje"
+                    // }
+                },
+                changeFormBlock() {
+                    // if (this.formBlock == true) {
+                    //     this.formBlock = false
+                    // }
+                    // else {
+                    //     this.formBlock = true
+                    // }
+                    this.formBlock = !this.formBlock
+                }, longerCurrency(shortCurrency) {
+                    if (shortCurrency == "PLN") {
+                        return "ZŁOTYCH"
+                    }
+                    else if (shortCurrency == "GBP") {
+                        return "POUNDS"
+                    }
+                    else if (shortCurrency == "USD") {
+                        return "DOLLARS"
+                    }
+                    else {
+                        return shortCurrency
+                    }
+                },
+                checkCheckboxes() {
+
+                }
+
+            },
+            computed: {
+                isReady() {
+                    let checkCheckboxes
+
+                    this.products.forEach(product => {
+                        if (product.checked != false) {
+                            checkCheckboxes = true
+                        }
+                    });
+
+                    if (this.formBlock == true && this.dostawa != false && checkCheckboxes == true) {
+                        this.submitButtonClass = "button"
+                        return true
+                    }
+                    else {
+                        this.submitButtonClass = "buttonDisabled"
+                        return false
+                    }
+                }
+            }
+
+        })
+        app.config.productionTip = false; // Disable development tip
+
+        app.mount("#app")
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>07logic-in-curly-brackets</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            /* text-align: center; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app">
+        <h2>{{ Math.pow(2,5) }}</h2>
+        <h2>{{ new Date().getTime() }}</h2>
+        <h2>{{ Math.random() }}</h2>
+        <h2>{{x > 5 ? "yes" : "no"}}</h2>
+        <h2 v-text="y.length < 5 ? 'yes' : 'no'"></h2>
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+
+
+            data() {
+                return {
+                    x: 100,
+                    y: "test"
+                }
+            }
+        })
+        app.config.productionTip = false; // Disable development tip
+
+        app.mount("#app")
+    </script>
+</body>
+
+</html>

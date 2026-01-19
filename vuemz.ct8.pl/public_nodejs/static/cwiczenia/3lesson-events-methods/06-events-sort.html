@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>06-events-sort</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        #app {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-evenly;
+            align-items: center
+        }
+
+        td {
+            width: 200px;
+            padding: 10px;
+            background-color: grey;
+        }
+
+        .sas {
+            background-color: blue;
+            color: white;
+            border-radius: 10px 0px;
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        .divek {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .divek>button {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app">
+        <h1>T: Events</h1>
+        <table>
+            <tr v-for="(item,i) in products" :key="item.id">
+                <td>{{item.id}}</td>
+                <td>{{item.product}}</td>
+                <td>{{item.price}}</td>
+                <td><button @click="addToCart(i)" class="sas">{{item.selected}}</button></td>
+                <td><input type="text" placeholder="comment" @input="updateComment(i)" v-bind:id="i"></td>
+            </tr>
+        </table>
+
+        <div class="divek">
+            <button class="sas" name="sortAZ" @click="sortAZ()">sortAZ</button>
+            <button class="sas" name="sortID" @click="sortID()">sortID</button>
+            <button class="sas" name="sortCena" @click="sortCena()">sortPrice</button>
+            <button class="sas" name="sortKoszyk" @click="sortKoszyk()">sortCart</button>
+        </div>
+
+
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+
+            data() {
+                return {
+                    products: [
+                        { product: "książka", price: 100, selected: "add to cart", id: 1, comment: "" },
+                        { product: "płyta CD", price: 200, selected: "add to cart", id: 2, comment: "" },
+                        { product: "mleko", price: 300, selected: "add to cart", id: 3, comment: "" },
+                        { product: "buty", price: 400, selected: "add to cart", id: 4, comment: "" },
+                    ]
+                }
+            },
+            methods: {
+                addToCart(i) {
+                    const currentValue = this.products[i].selected
+
+                    if (currentValue == "add to cart") {
+                        this.products[i].selected = "in cart"
+                    }
+                    else {
+                        this.products[i].selected = "add to cart"
+
+                    }
+                },
+                sortAZ() {
+                    this.products.sort(function (a, b) {
+                        if (a.product < b.product) return -1;
+                        if (a.product > b.product) return 1;
+                        return 0;
+                    });
+                },
+                sortID() {
+                    this.products.sort(function (a, b) {
+                        if (a.id < b.id) return -1;
+                        if (a.id > b.id) return 1;
+                        return 0;
+                    });
+                },
+                sortCena() {
+                    this.products.sort(function (a, b) {
+                        if (a.price < b.price) return -1;
+                        if (a.price > b.price) return 1;
+                        return 0;
+                    });
+                },
+                sortKoszyk() {
+                    this.products.sort(function (a, b) {
+                        if (a.selected == "in cart") return -1;
+                        if (a.selected == "add to cart") return 1;
+                        return 0;
+                    });
+                },
+                updateComment(id) {
+                    // find input
+                    const input = document.getElementById(id)
+                    this.products[id].comment = input.value
+                }
+            }
+
+
+
+        })
+        app.config.productionTip = false; // Disable development tip
+
+        app.mount("#app")
+    </script>
+
+</body>
+
+</html>

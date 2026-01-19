@@ -1,0 +1,200 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#main {
+    display: flex;
+}
+
+#game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#col {
+    display: flex;
+}
+
+.div {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: green;
+}
+
+#wygrana {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    background-color: green;
+    /* background-image: url("fortnite-default.gif");
+    background-position: top;
+    background-repeat: no-repeat; */
+    opacity: 70%;
+    overflow: hidden;
+}
+
+#przegrana {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    background-color: red;
+    opacity: 70%;
+    overflow: hidden;
+}
+
+.fortinayty {
+    position: absolute;
+    z-index: -1;
+    border-radius: 20px;
+    margin: auto;
+    opacity: 100%;
+}
+
+
+div>p {
+    font-size: 80px;
+    color: yellow;
+    position: relative;
+    animation-name: zPrawej;
+    animation-duration: 4s;
+}
+
+.powrot,
+#nick,
+#nickButton {
+    position: relative;
+    animation-name: zLewej;
+    animation-duration: 4s;
+}
+
+input,
+button {
+    padding: 20px;
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+@keyframes zLewej {
+    from {
+        left: -50%;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+@keyframes zPrawej {
+    from {
+        left: 50%;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+#timeLeft {
+    /* background-color: lightgrey; */
+    margin: 10px;
+    /* width: 100%;
+    height: auto; */
+    z-index: 5;
+}
+
+#timeBar {
+    background-color: red;
+    /* border-radius: 20px; */
+
+    width: 100%;
+    height: 35px;
+    position: relative;
+    top: -40px;
+    z-index: 1;
+}
+
+#timeBar>div {
+    background-color: green;
+    /* border: 2px solid black; */
+    /* border-radius: 20px; */
+    width: 100%;
+    height: 35px;
+}
+
+#tabela {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+#tabela>button {
+    margin: 20px 150px;
+}
+
+#tabela>div>th>button {
+    margin-bottom: 20px;
+    padding: 20px 60px;
+}
+
+#leaderBoardButtons>th {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+}
+
+table>* {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+td {
+    /* border: 1px solid black; */
+    width: 15%;
+    background-color: greenyellow;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.opisyLeaderboard {
+    background-color: rgb(2, 181, 2);
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: yellowgreen;
+    border: 2px solid grey;
+}

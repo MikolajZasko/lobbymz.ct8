@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckersGame</title>
+    <link rel="stylesheet" href="./src/css/css.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.0/socket.io.js"></script> -->
+    <script type="module" src="./index.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <div id="ui">
+        <div id="status">Status<div id="statusInfo">info</div>
+        </div>
+        <div id="background"></div>
+        <div id="loggingDiv">
+
+            <h2>Checkers</h2>
+            <form method="get">
+                <input type="text" name="nickName" id="nickName">
+                <button type="button" id="loginBt">loguj</button>
+                <button type="button" id="resetBt">reset</button>
+            </form>
+        </div>
+    </div>
+    <div id="waiting" style="display: none;"></div>
+    <div id="waitingInfo" style="display: none;">waiting for 2nd player</div>
+    <div id="clientColor" style="display: none;"></div>
+</body>
+
+</html>

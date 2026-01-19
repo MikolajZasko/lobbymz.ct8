@@ -1,0 +1,154 @@
+* {
+    user-select: none;
+}
+
+table>*>* {
+    width: 30px;
+    height: 30px;
+    border: solid 1px black;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table>* {
+    display: flex;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+td {
+    font-size: 10px;
+    color: white;
+}
+
+body>div>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.block {
+    display: flex;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+#ships {
+    margin-right: 20px;
+    width: 80px;
+    height: 500px;
+}
+
+.ship {
+    display: flex;
+    margin-bottom: 10px;
+    background-color: grey;
+    width: 30px;
+}
+
+#ships>div:hover {
+    background-color: green;
+}
+
+.ship:hover {
+    background-color: green;
+}
+
+#startGame {
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    display: block;
+    margin-top: 10px;
+}
+
+#startGame:hover {
+    background-color: aquamarine;
+}
+
+.trafiony {
+    background-image: url("1.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: black;
+}
+
+.pudlo {
+    background-image: url("2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: black;
+}
+
+#turnInfoBox {
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#winScreen {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    background-color: green;
+    opacity: 70%;
+}
+
+#winScreen>button,
+#loseScreen>button {
+    padding: 10px;
+    margin: 10px;
+    border: solid black 1px;
+    border-radius: 20px;
+}
+
+#winScreen>p,
+#loseScreen>p {
+    font-size: 20px;
+    color: white;
+}
+
+#loseScreen {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    background-color: red;
+    opacity: 70%;
+}
+
+.fortinayty {
+    z-index: -1;
+    border-radius: 20px;
+    opacity: 100%;
+}

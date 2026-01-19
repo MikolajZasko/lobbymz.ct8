@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+        }
+
+        #left {
+            width: 50%;
+            height: 100%;
+            float: left;
+            background-color: cadetblue;
+            overflow: hidden;
+        }
+
+        #left:hover {
+            background-color: chartreuse;
+            cursor: pointer;
+        }
+
+        #right:hover {
+            background-color: chartreuse;
+            cursor: pointer;
+        }
+
+        #right {
+            width: 50%;
+            height: 100%;
+            float: right;
+            background-color: green;
+            overflow: hidden;
+        }
+
+        #from {
+            height: 100%;
+        }
+
+        #from>button {
+            font-size: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="./pdf.php" id="from" method="post">
+        <button type="submit" value="P" id="left" name="orientation">vertical</button>
+        <button type="submit" value="L" id="right" name="orientation">horizontal</button>
+    </form>
+</body>
+
+</html>

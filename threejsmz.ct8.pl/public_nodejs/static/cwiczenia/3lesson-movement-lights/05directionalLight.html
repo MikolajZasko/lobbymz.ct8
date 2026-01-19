@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>05directionalLight</title>
+    <script src="../libs/three.js"></script>
+    <script src="../libs/jq.js"></script>
+    <script src="../js/Test.js"></script>
+    <script src="../js/player.js"></script>
+    <script src="../js/sphere.js"></script>
+    <script src="../js/ally.js"></script>
+    <script src="../js/allyManager.js"></script>
+    <script src="skrypty/script5.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            /* text-align: center; */
+        }
+
+        /* h1 {
+            text-align: center;
+        } */
+
+        h2 {
+            text-align: center;
+            font-size: 500px;
+            font-weight: 900;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="junk">
+        <h1>05directionalLight</h1>
+
+        <input type="range" name="intensity" value="1" min="1" max="10" id="intensity">
+        <label for="intensity" style="color: red;font-size: 30px;">intensity</label> <br>
+        <button type="button" name="button" id="button">change light position</button>
+
+        <p id="description" style="color: red; font-size: 30px;">x=1,y=1,z=1</p>
+    </div>
+
+    <div id="root"></div>
+</body>
+
+</html>

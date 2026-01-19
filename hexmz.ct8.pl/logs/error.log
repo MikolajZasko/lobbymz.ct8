@@ -1,0 +1,66 @@
+start serwera na porcie 3000
+{
+  size: '3',
+  level: [
+    { id: 0, x: 0, y: 0, dirOut: 2, dirIn: 5, type: 'walls' },
+    { id: 1, x: 1, y: 0, dirOut: 2, dirIn: 5, type: 'walls' },
+    { id: 5, x: 2, y: 1, dirOut: 3, dirIn: 0, type: 'walls' },
+    { id: 8, x: 2, y: 2, dirOut: 2, dirIn: 5, type: 'light' }
+  ]
+}
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+{
+  size: '3',
+  level: [
+    { id: 6, x: 0, y: 2, dirOut: 4, dirIn: 1, type: 'walls' },
+    { id: 3, x: 0, y: 1, dirOut: 3, dirIn: 0, type: 'walls' },
+    { id: 0, x: 0, y: 0, dirOut: 1, dirIn: 4, type: 'walls' },
+    { id: 1, x: 1, y: 0, dirOut: 1, dirIn: 4, type: 'walls' },
+    { id: 4, x: 1, y: 1, dirOut: 1, dirIn: 4, type: 'walls' },
+    { id: 7, x: 1, y: 2, dirOut: 2, dirIn: 5, type: 'walls' }
+  ]
+}
+{
+  size: '3',
+  level: [
+    { id: 6, x: 0, y: 2, dirOut: 4, dirIn: 1, type: 'walls' },
+    { id: 3, x: 0, y: 1, dirOut: 3, dirIn: 0, type: 'walls' },
+    { id: 0, x: 0, y: 0, dirOut: 1, dirIn: 4, type: 'walls' },
+    { id: 1, x: 1, y: 0, dirOut: 1, dirIn: 4, type: 'walls' },
+    { id: 4, x: 1, y: 1, dirOut: 1, dirIn: 4, type: 'walls' },
+    { id: 7, x: 1, y: 2, dirOut: 2, dirIn: 5, type: 'walls' }
+  ]
+}
+start serwera na porcie 3000
+start serwera na porcie 3000
+{
+  size: '3',
+  level: [
+    { id: 0, x: 0, y: 0, dirOut: 2, dirIn: 5, type: 'walls' },
+    { id: 1, x: 1, y: 0, dirOut: 3, dirIn: 0, type: 'walls' },
+    { id: 4, x: 1, y: 1, dirOut: 3, dirIn: 0, type: 'walls' },
+    { id: 7, x: 1, y: 2, dirOut: 1, dirIn: 4, type: 'walls' },
+    { id: 8, x: 2, y: 2, dirOut: 1, dirIn: 4, type: 'walls' }
+  ]
+}
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000
+start serwera na porcie 3000

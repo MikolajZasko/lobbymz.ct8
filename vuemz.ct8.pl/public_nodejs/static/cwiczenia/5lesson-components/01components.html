@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>01components</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        #app {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-evenly;
+        }
+
+        .component-a {
+            background-color: blue;
+            width: 200px;
+            color: white;
+        }
+
+        .component-b {
+            background-color: red;
+            width: 200px;
+            color: white;
+        }
+
+        .component-c {
+            background-color: green;
+            width: 200px;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>01components</h1>
+
+    <div id="app">
+        <div class="container">
+            <component-a></component-a>
+            <component-a></component-a>
+            <component-a></component-a>
+        </div>
+        <div class="container">
+            <component-b></component-b>
+            <component-c></component-c>
+        </div>
+
+    </div>
+
+    <script>
+        const ComponentA = {
+            template: "<h3 class='component-a'>itemsComponent</h3>",
+        }
+
+        const ComponentB = {
+            template: "<h3 class='component-b'>changeTitleComponent</h3>",
+        }
+
+        const ComponentC = {
+            template: "<h3 class='component-c'>additemComponent</h3>",
+        }
+
+        const app = Vue.createApp({
+
+            data() {
+                return {
+                    a: "a",
+                }
+            },
+            methods: {},
+            components: {
+                "component-a": ComponentA,
+                "component-b": ComponentB,
+                "component-c": ComponentC
+            }
+
+
+        })
+        app.config.productionTip = false; // Disable development tip
+
+        app.mount("#app")
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>06-computed</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            /* text-align: center; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app">
+        <a v-bind:href="link">
+            <img v-bind:src="image" :width="width" height="{{height}}" />
+        </a>
+        <a v-bind:href="getLink()">
+            <img v-bind:src="getImage()" :width="width" height="{{height}}" />
+        </a>
+        <a :href="getLink()">
+            <img :src="getImage()" :width="width" height="{{height}}" />
+        </a>
+
+
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+
+            data() {
+                return {
+                    link: "https://vuejs.org/",
+                    image: "https://vuejs.org/images/logo.png",
+                    width: "100px",
+                    height: "100px"
+                }
+            },
+            methods: {
+                getLink() {
+                    return this.link
+                },
+                getImage() {
+                    return this.image
+                },
+
+            }
+
+
+
+        })
+        app.config.productionTip = false; // Disable development tip
+
+        app.mount("#app")
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+.leftPanelItem {
+    background-image: url("sprites.png");
+    filter: brightness(50%);
+
+    border: dashed white 1px;
+}
+
+#hiddenItem {
+    background-color: black;
+    background-image: url("sprites.png");
+    background-position: 48px 48px;
+    /* display: none; */
+}
+
+.leftPanelItem:hover {
+    filter: brightness(100%);
+}
+
+.rightPanelItem {
+    background-color: black;
+    border: 1px dotted white;
+}
+
+.rightPanelItem:hover {
+    border: 2px solid red;
+    opacity: 50%;
+}
+
+.selected {
+    border: 2px solid red;
+    opacity: 50%;
+}
+
+.row {
+    overflow: hidden;
+    height: 20px;
+}
+
+#leftPanel {
+    overflow: hidden;
+    text-wrap: nowrap;
+
+    width: 850px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#rightPanel {
+    z-index: 99;
+
+    overflow: hidden;
+    float: right;
+    text-wrap: nowrap;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#bottomInfo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: lime;
+    padding: 20px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bottomInfo>p {
+    font-size: 30px;
+    margin: 0px;
+}
+
+#yellowRectangle {
+    position: absolute;
+    background-color: yellow;
+    opacity: 50%;
+}
+
+#test {
+    position: absolute;
+    background-color: yellow;
+    width: -100px;
+    height: 100px;
+    left: 100px;
+    top: 100px;
+    z-index: 10;
+}
+
+#autoDiv {
+    font-size: 30px;
+}
+
+#autoDiv>input {
+    width: 25px;
+    aspect-ratio: 1;
+}
+
+#constextMenu {
+    font-size: 20px;
+    border-radius: 20px;
+
+    display: none;
+    flex-direction: column;
+
+    width: 200px;
+}
+
+#constextMenu>div {
+    display: flex;
+    flex-direction: row;
+
+    border-radius: 20px;
+
+    border: 1px dashed grey;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+#constextMenu>div:hover {
+    background-color: grey;
+
+    border: 1px dashed black;
+
+    cursor: pointer;
+}
+
+#constextMenu>div>p {
+    margin: 0px;
+    width: 250px;
+}
+
+.pLeft {
+    text-align: left;
+}
+
+.pRight {
+    text-align: right;
+}
+
+#fileSelect {
+    display: none;
+}
+
+#rightPanelHidden {
+    display: none;
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    /* left: -1000px; */
+}
+
+.highlightedCanvas {
+    border: solid greenyellow 2px !important;
+}
+
+.superSelected {
+    border: 2px solid green;
+    opacity: 100% !important;
+}
+
+canvas {
+    width: 20px;
+    height: 20px;
+}

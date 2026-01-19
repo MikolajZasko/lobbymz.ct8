@@ -1,0 +1,53 @@
+Temat: Wstep do badania sieci komputerowych / systemow informatycznych - laboratorium.
+
+W celu przygotowania srodowiska zainstaluj w VM VirtualBox MS windows 10 pro. Karte sieciowa ustaw na tryb mostu. Dostosuj parametry maszyny wirtualnej.
+Po uruchomieniu systemu sprawdz czy dostales adresacje IP z DHCP routera.
+
+Zadania (glownie) w CMD
+
+    1. Jaki jest twoj adres IP (wykorzystaj ipconfig) 
+	192.168.101.63(screen)
+    2. Pod jakim adresem jestes widoczny w Internecie (wykorzystaj strony typu ,,what is my ip,,)
+	195.150.236.120(screen)
+    3. Jesli w dwoch poprzednich punktach otrzymales rozne adresy - wytlumacz co to oznacza ?  -
+	w pk.1 adres jest lokalny, w pk.2 globalny
+    4. Na kogo zarejestrowany jest publiczny IP pod ktorym widoczny jest twoj komputer ? (whois tools)
+	tlkrtr.tl.krakow.pl // https://whatismyipaddress.com/ip/195.150.236.120
+    5. Czy adres IP twojego komputera jest statyczny czy dynamiczny ? jesli dynamiczny to na jak dlugo komputer go otrzymal ?
+	adres jest dynamiczny, ?
+    6. Korzystaj polecenie PING do zbadania stron upc.pl - vectra.pl - orange.pl oraz netia.pl - skomentuj otrzymane wyniki //
+	(screen), ping nie dochodzi do orange i netia, vectre prawdopodobnie blokuje w pewnym momencie firewall, 	upc działa bez problemu
+    7. Jaka wartosc TTL otrzymales w poprzednim zadaniu ? co to oznacza ? 
+	245, 46, -, - // https://www.atel.com.pl/slownik_produkt_ref.php?haslo=TTL
+    8. Korzystajac z polecenia tracert zbadaj droge do serwerow upc.pl - vectra.pl oraz netia.pl - przeanalizuj otrzymane wyniki.
+	(screen) netia nie dziala, vectra prawdopodobnie jest blokowana przez firewalle co widac, ale wkoncu dochodzi, upc bez problemu
+    9. Kto wyprodukowal karte sieciowa w twoim komputerze ? sprawdz po MAC
+	70-B5-E8-3C-C7-B8 - DELL
+    10. Zdefiniuj czym jest brama domyslna i jakie urzadzenie jest brama dla twojego komputera ? 
+	// //router
+    11. Kto jest producentem urzadzenia, ktore jest brama domyslna twojego komputera ? sprawdz po MAC  (uzyj arp -a) 
+	//
+	Routerboard.com
+	Mikrotikls SIA
+	Riga Riga LV1009
+	Latvia 
+
+
+
+Poznaj(zainstaluj i przetestuj) bardzo dobre, popularne i darmowe narzedziaa dla MS Windows do badania sieci komputerowych/systemow informatycznych czesto uzywane m.in. przez osoby zajmujace sie bezpieczenstwem/administracja/zarzadzaniem sieciami/systemami teleinformatycznymi.
+
+https://www.advanced-ip-scanner.com/pl/
+https://axence.net/pl/axence-nettools
+https://nmap.org/zenmap/
+
+Z wykorzystaniem powyzszych narzedzi wykonaj ponizsze cwiczenia:
+
+    1. rozpocznij monitorowanie strony szkoly oraz serwera pocztowego. ustaw alarm gdy przerwa bedzie > 5 min 
+    2. pokaz wszystkie obecne kanaly komunikacji w twoim komputerze (jakie aplikacje i na jakich portach) 
+    3. Pokaz graficznie trase pakietow od ciebie do serwera  upc.pl - vectra.pl, netia.pl oraz https://tl.krakow.pl/- co o tym myslisz ? 
+    4. Pokaz graficznie trase pakietow od ciebie do serwera https://tl.krakow.pl/ Wykorzystujac inne narzedzia okresl gdzie znajduje sie serwerownia przechowujaca  ta strone.  Wyjasnij co sie stalo i dlaczego ? 
+    5. Pokaz wszystkie urzadzenia w twojej podsieci 
+    6. Zbadaj przepustowosc do: komputera kolegi, serwera www szkoly i upc.pl - vectra.pl  oraz netia.pl 
+
+ Uzupelnienie - cwiczenia do samodzielnego wykonania. Po zapoznaniu sie z powyzszymi narzedziami zaproponuj wlasne cwiczenia badania sieci/zasobow sieci teleinformatycznych.
+

@@ -1,0 +1,1 @@
+"<td style=\"padding:2px;text-align:center;width:$sredniaWidth;\">"

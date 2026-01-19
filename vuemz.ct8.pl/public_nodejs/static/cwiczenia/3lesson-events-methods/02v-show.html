@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>02v-show</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        #app {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-evenly;
+        }
+
+        #divek {
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            border: 10px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>T: v-show</h1>
+
+    <div id="app">
+        <button v-on:click="changeVShow">hide</button>
+        <div id="divek" v-show="vShowValue">element</div>
+    </div>
+    <script>
+        const app = Vue.createApp({
+
+            data() {
+                return {
+                    vShowValue: true
+                }
+            },
+            methods: {
+                changeVShow(e) {
+                    if (this.vShowValue == true) {
+                        e.target.innerHTML = "show"
+                        this.vShowValue = false
+                    }
+                    else {
+                        e.target.innerHTML = "hide"
+                        this.vShowValue = true
+                    }
+
+                }
+            }
+
+        })
+        app.config.productionTip = false; // Disable development tip
+
+        app.mount("#app")
+    </script>
+</body>
+
+</html>

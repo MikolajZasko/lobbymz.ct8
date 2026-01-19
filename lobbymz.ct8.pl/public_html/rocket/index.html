@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        #plan {
+            width: 1000px;
+            height: 1000px;
+            background-image: url(galaxy.jpg);
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+        }
+
+        h1 {
+            z-index: 5;
+            position: relative;
+            color: white;
+        }
+
+        button {
+            float: left;
+            position: relative;
+            z-index: 2;
+            margin: 10px;
+            width: 80px;
+        }
+
+        #container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            width: 100px;
+            background-color: white;
+            position: absolute;
+            right: 0px;
+            z-index: 10;
+        }
+
+        input {
+            padding: 20px;
+        }
+
+        label {
+            position: relative;
+            z-index: 2;
+        }
+
+        .planeta {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            z-index: 3;
+            display: flex;
+
+
+            background-image: url("planet.png");
+            background-size: contain;
+
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        .planeta>p {
+            text-align: center;
+            color: white;
+            font-size: 50px;
+            margin: auto;
+        }
+
+        @keyframes obrotPlanet {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        #rakieta {
+            position: absolute;
+            z-index: 5;
+            width: 100px;
+            height: 100px;
+
+            background-image: url("rocket.webp");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <h1>T:Vectors , setInterval, requestAnimationFrame</h1>
+        <div id="plan"></div>
+        <div id="rakieta" style="left: 800px;top: 100px;"></div>
+        <div id="container">
+            <button id="steps">steps</button>
+            <button id="jumping">jumping</button>
+            <button id="fly">fly</button>
+            <label>flight direction</label>
+            <input type="checkbox" id="kierunek_lotu" value="kierunek_lotu">
+        </div>
+    </div>
+</body>
+
+</html>

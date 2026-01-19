@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>06spotLight</title>
+    <script src="../libs/three.js"></script>
+    <script src="../libs/jq.js"></script>
+    <script src="../js/Test.js"></script>
+    <script src="../js/player.js"></script>
+    <script src="../js/sphere.js"></script>
+    <script src="../js/ally.js"></script>
+    <script src="../js/allyManager.js"></script>
+    <script src="skrypty/script6.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            /* text-align: center; */
+        }
+
+        /* h1 {
+            text-align: center;
+        } */
+
+        h2 {
+            text-align: center;
+            font-size: 500px;
+            font-weight: 900;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        #junk {
+            background-color: rgba(0, 0, 0, .7);
+            border-radius: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="junk">
+        <h1 style="text-align: center;">06spotLight</h1>
+        <input type="range" name="intensity" value="1" min="1" max="10" id="intensity">
+        <label for="intensity" style="color: red;font-size: 30px;">intensity</label> <br>
+
+        <input type="range" name="yPos" value="100" min="0" max="200" id="yPos">
+        <label for="yPos" style="color: red;font-size: 30px;">yPos</label> <br>
+
+        <input type="range" name="targetRotation" value="0" min="0" max="360" id="targetRotation">
+        <label for="targetRotation" style="color: red;font-size: 30px;">targetRotation</label> <br>
+
+        <input type="radio" name="lightTarget" id="scene" checked>
+        <label for="lightTarget" style="color: red;font-size: 30px;">scene</label> <br>
+
+        <input type="radio" name="lightTarget" id="target">
+        <label for="lightTarget" style="color: red;font-size: 30px;">target</label>
+
+        <p id="dIntensity" style="color: green; font-size: 30px;">intensity = 1</p>
+        <p id="dPosition" style="color: green; font-size: 30px;">light position = 100</p>
+        <p id="dTargetPosition" style="color: green; font-size: 30px;">target position:
+        <pre style="color: green; font-size: 30px;" id="pre">
+    x = 100
+    y = 8
+    z = 0
+</pre>
+        </p>
+    </div>
+
+    <div id="root"></div>
+</body>
+
+</html>

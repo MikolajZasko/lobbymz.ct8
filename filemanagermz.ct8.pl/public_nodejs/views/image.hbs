@@ -1,0 +1,37 @@
+<script src="../js/imageEditor.js"></script>
+
+<div id="main" class="editMain">
+    <div id="left" style="display: flex; flex-direction: column">
+        <button onclick="filters()">filters</button>
+    </div>
+    <div id="panel">
+        {{#each effects}}
+        {{filterName}}
+        <div style="background-image:url('{{filePath}}');filter:{{filterName}}(100%)" onclick="{{filterName}}()"></div>
+        {{/each}}
+    </div>
+    <div id="right">
+        <div id="header">{{fileRoot}}</div>
+        <div id="mainImage" style="background-image:url('{{filePath}}');"></div>
+        <div id="imgButtons">
+            <button onclick="changeFileName()">changeFileName</button>
+            <button id="save" name="save" onclick="save()">save</button>
+            <form action="/lookUp" name="imageForm" id="imageForm">
+                <input type="hidden" hidden value="{{filePath}}" name="filePath">
+                <input id="lookUp" type="submit" value="lookUp">
+            </form>
+        </div>
+        <div id="imageStatus"></div>
+    </div>
+</div>
+
+<dialog id="dialogRename">
+    <form action='/changeFileName' method="post">
+        <label for='name'>new name for file <b style="font-size: 20px;">{{fileName}}</b></label>
+        <input type='text' id='name' name='name'>
+        <button type='submit'>ok</button>
+        <button type='button' class='cancel'>cancel</button>
+        <input class="hidden" type="text" name="file" value="{{fileRoot}}" />
+        <input class="hidden" type="text" name="root" value="{{root}}" />
+    </form>
+</dialog>

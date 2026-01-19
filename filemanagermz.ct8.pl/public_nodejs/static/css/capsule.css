@@ -1,0 +1,156 @@
+h2,
+h4 {
+    text-align: center;
+
+    /* border-radius: 20px 20px 0 0; */
+    padding: 20px;
+    background-color: rgb(197, 216, 209);
+    width: 200px;
+}
+
+h2 {
+    border-radius: 20px 20px 0 0;
+    margin: 0;
+    width: 250px;
+    font-size: 20px;
+}
+
+h4 {
+    border-radius: 0 0 20px 20px;
+    color: rgb(197, 216, 209);
+    margin: 0;
+    width: 250px;
+}
+
+.capsuleMain {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center; */
+
+    background-color: rgb(124, 222, 220);
+    width: 200px;
+    padding: 10px;
+}
+
+.capsule {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectDescription {
+    background-color: rgb(5, 142, 217);
+    border-radius: 20px 0;
+    padding: 10px;
+}
+
+.linkToProject {
+    background-color: rgb(249, 166, 32);
+    border-radius: 0 20px;
+    padding: 10px;
+
+    text-decoration: none;
+    color: white;
+}
+
+.linkToProject:hover {
+    background-color: rgb(221, 252, 116);
+    color: black;
+}
+
+.lobbyContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.lobbyContainer>* {
+    width: 50%;
+}
+
+.lobbyCapsule {
+    height: 200px;
+
+    margin: 0px;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.lobbyCapsule>h2 {
+    height: 50px;
+}
+
+.lobbyCapsule>div {
+    height: 100px;
+}
+
+.lobbyCapsule>div>div {
+    height: 80px !important;
+}
+
+.animated-element-bottom {
+    width: 250px;
+    height: 50px;
+
+    position: relative;
+    top: -50px;
+
+    transition: top 1s;
+
+    background-color: #E9C46A;
+    color: #E9C46A;
+}
+
+.animated-element-top {
+    width: 250px;
+    height: 50px;
+
+    position: relative;
+    bottom: -50px;
+
+    transition: bottom 1s;
+
+    background-color: #E9C46A;
+    color: black;
+}
+
+.lobbyCapsule:hover .animated-element-bottom {
+    top: 0px;
+}
+
+.lobbyCapsule:hover .animated-element-top {
+    bottom: 0px;
+}
+
+#hideLobby {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+
+    background-color: white;
+}
+
+#hideLobby:hover {
+    background-color: grey;
+    cursor: pointer;
+}

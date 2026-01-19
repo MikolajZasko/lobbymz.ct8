@@ -1,0 +1,352 @@
+* {
+    box-sizing: border-box;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+}
+
+#main>* {
+    height: 100%;
+    text-align: center;
+}
+
+#left {
+    background-color: grey;
+    width: 30%;
+    height: 100%;
+    border: none;
+}
+
+#left>button {
+    margin: 10px;
+}
+
+#left>button:hover,
+#left>form>button:hover,
+.niceButton:hover {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+
+#right {
+    width: 70%;
+    border: none;
+    height: 100%;
+}
+
+form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#fileDisplay {
+    width: 100%;
+}
+
+#fileDisplay>*>*>* {
+    border: solid black 1px;
+}
+
+#infoDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#infoDisplay>* {
+    display: flex;
+}
+
+#infoDisplay>div>pre {
+    color: red;
+    font-size: 15px;
+    width: fit-content;
+    overflow: visible;
+}
+
+#dialog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+}
+
+#files>div,
+#dirs>div {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+#files>div>div,
+#dirs>div>div {
+    /* width: 100px; */
+    /* height: 100px; */
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#files>div>div {
+    background-color: aqua;
+}
+
+#dirs>div>div {
+    background-color: orange;
+}
+
+
+.fm2Img {
+    width: 50px;
+    height: 50px;
+}
+
+dialog {
+    border-radius: 20px;
+    text-align: center;
+}
+
+dialog>*>* {
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#dialogFile>*>button:hover {
+    background-color: aqua;
+    font-weight: 900;
+}
+
+#dialogFile>*>label {
+    background-color: aqua;
+    padding: 5px;
+}
+
+#dialogDir>*>button:hover {
+    background-color: orange;
+    font-weight: 900;
+}
+
+#dialogDir>*>label {
+    background-color: orange;
+    padding: 5px;
+}
+
+#dialogRename>*>button:hover {
+    background-color: pink;
+    font-weight: 900;
+}
+
+#dialogRename>*>label {
+    background-color: pink;
+    padding: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#header {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding-left: 5px;
+
+    border-bottom: 2px solid red;
+
+    height: 5%;
+}
+
+#textEditor {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+#textarea {
+    font-size: 20px;
+    width: 90%;
+    height: 95%;
+    resize: none;
+    /* overflow-x: hidden; */
+
+    border: none;
+    border-style: none;
+    border-color: Transparent;
+    /* overflow-x: hidden; */
+
+    outline: none;
+
+    border-left: 2px solid red;
+
+    padding: 0;
+    margin: 0;
+    padding-left: 2px;
+
+    white-space: pre;
+    overflow-wrap: normal;
+    /* overflow-x: hidden; */
+
+}
+
+#lineCounter {
+    display: flex;
+    flex-direction: column;
+
+    width: 10%;
+    height: 95%;
+}
+
+#sendAndSave {
+
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 300px;
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    text-align: center;
+    font-size: 20px;
+
+    background-color: orange;
+    border-radius: 20px;
+}
+
+#sendAndSave:hover {
+    background-color: yellow;
+    color: red;
+}
+
+/* .editMain {
+    overflow-x: hidden;
+} */
+
+#panel {
+
+    width: 0px;
+    transition: width 1s;
+
+    background-color: yellow;
+
+    display: flex;
+    flex-direction: column;
+
+    /* overflow-x: hidden; */
+}
+
+#panel>* {
+    height: 100px;
+    width: 100%;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+}
+
+#mainImage {
+    height: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#imgButtons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+#imgButtons>form {
+    padding: 0;
+    margin: 0;
+}
+
+#imgButtons>form>input {
+    border: 2px solid black;
+}
+
+#imgButtons>* {
+    margin: 0 10px;
+}
+
+#imgButtons>button:hover,
+#imgButtons>form>input:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#mainAuth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#mainAuth>* {
+    margin: 10px;
+}
+
+#mainAuth>form>input {
+    margin: 5px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#mainAuth>div>a {
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 20px 0px;
+    text-decoration: none;
+}
+
+#mainAuth>div>a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#subInput:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#mainAuth>h2>b {
+    color: red;
+}
+
+.error {
+    color: red;
+}
+
+.a {
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px;
+    background-color: green;
+
+    text-decoration: none;
+    color: white;
+
+    font-size: 20px;
+}
+
+.a:hover {
+    background-color: yellow;
+    color: black;
+}

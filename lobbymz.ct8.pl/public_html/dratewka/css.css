@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "PressStart2P";
+    src: url("Dratewka/fonts/PressStart2P.ttf") format('truetype');
+}
+
+* {
+    font-family: "PressStart2P";
+    color: grey;
+    user-select: none;
+    font-size: 30px;
+
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+
+    width: 1200px;
+}
+
+#consoleDiv {
+    display: inline-block;
+}
+
+#loactionImage {
+    background-color: red;
+    width: 300px;
+}
+
+#consoleDiv>p {
+    width: 300px;
+}
+
+#console {
+    background-color: transparent;
+    border-radius: none;
+    border: none;
+
+    all: unset;
+    pointer-events: none;
+
+    /* Hide the default cursor */
+    caret-color: transparent;
+
+    position: absolute;
+    left: 300px;
+    /* width: 70%; */
+}
+
+#consoleDiv>span {
+    background-color: grey;
+    color: #000;
+
+    position: absolute;
+
+}
+
+#consoleDiv>p {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        background-color: grey;
+    }
+
+    50% {
+        background-color: black;
+    }
+}
+
+#console::selection {
+    border: none;
+}
+
+#windRose {
+    width: 400px;
+    height: 187.500px;
+}
+
+#images {
+    display: flex;
+}
+
+.cover {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+}
+
+#cw {
+    left: 315px;
+    top: 135px;
+}
+
+#cn {
+    left: 475px;
+    top: 80px;
+}
+
+#ce {
+    left: 655px;
+    top: 135px;
+}
+
+#cs {
+    left: 485px;
+    top: 250px;
+}
+
+#bigPhoto {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    display: block;
+}
+
+img {
+    image-rendering: pixelated;
+}

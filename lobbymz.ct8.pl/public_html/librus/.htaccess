@@ -1,0 +1,8 @@
+Options -Indexes
+
+AuthType Basic
+AuthName "Restricted Files"
+# (Following line optional)
+AuthBasicProvider file
+AuthUserFile /home/NoobXXX890290/domains/lobbymz.ct8.pl/passwords
+Require valid-user

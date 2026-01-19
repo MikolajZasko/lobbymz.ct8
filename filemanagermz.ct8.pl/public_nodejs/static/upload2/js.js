@@ -1,0 +1,1 @@
+<script>console.log('to jest plik js')</script>

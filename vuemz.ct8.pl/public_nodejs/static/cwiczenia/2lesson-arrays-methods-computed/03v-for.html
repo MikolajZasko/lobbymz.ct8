@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>03v-for</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            /* text-align: center; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app">
+
+        <h3>ul 1 - value key of object</h3>
+
+        <li v-for="(val, key) in object">{{key}} - {{val}} </li>
+
+        <h3>ul 2 - key value index of object</h3>
+
+        <li v-for="(val, key, index) in object">{{index}} - {{key}} - {{val}}</li>
+
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+
+            data() {
+                return {
+                    object: {
+                        a: 111,
+                        b: 222,
+                        c: 333
+                    }
+                }
+            }
+
+
+        })
+        app.config.productionTip = false; // Disable development tip
+
+        app.mount("#app")
+    </script>
+</body>
+
+</html>

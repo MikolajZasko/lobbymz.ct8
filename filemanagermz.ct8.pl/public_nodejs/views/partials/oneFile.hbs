@@ -1,0 +1,13 @@
+<tr>
+    {{#if type}}
+    <td>{{id}}</td>
+    <td><img src="{{imgPath}}" alt="{{imgPath}}" style="width:100px;height:100px;"> </td>
+    <td>{{name}}</td>
+    <td>{{size}}</td>
+    <td>{{type}}</td>
+    <td><a href="/show/?id={{id}}">show</a></td>
+    <td><a href="/info/?id={{id}}">info</a></td>
+    <td><a href="/download/?id={{id}}">download</a></td>
+    <td><a href="/delete/?id={{id}}">delete</a></td>
+    {{/if}}
+</tr>

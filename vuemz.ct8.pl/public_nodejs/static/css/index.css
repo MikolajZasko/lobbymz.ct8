@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7B9EA8;
+}
+
+h1 {
+    background-color: rgb(166, 242, 241);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h2,
+h4 {
+    text-align: center;
+
+    /* border-radius: 20px 20px 0 0; */
+    padding: 20px;
+    background-color: rgb(197, 216, 209);
+    width: 200px;
+}
+
+h2 {
+    border-radius: 20px 20px 0 0;
+    margin: 0;
+    width: 250px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+h4 {
+    border-radius: 0 0 20px 20px;
+    color: rgb(197, 216, 209);
+    margin: 0;
+    width: 250px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    background-color: #a6f2f1;
+    padding: 20px;
+    border-radius: 20px;
+    min-width: 300px;
+}
+
+.capsuleMain {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center; */
+
+    background-color: rgb(124, 222, 220);
+    width: 200px;
+    padding: 10px;
+}
+
+.capsule {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectDescription {
+    background-color: rgb(5, 142, 217);
+    border-radius: 20px 0;
+    padding: 10px;
+}
+
+.linkToProject {
+    background-color: rgb(249, 166, 32);
+    border-radius: 0 20px;
+    padding: 10px;
+
+    text-decoration: none;
+    color: white;
+}
+
+.linkToProject:hover {
+    background-color: rgb(221, 252, 116);
+    color: black;
+}
+
+.lobbyContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.lobbyContainer>* {
+    width: 50%;
+}
+
+.lobbyCapsule {
+    height: 200px;
+
+    margin: 0px;
+}
+
+.lobbyCapsule>h2 {
+    height: 50px;
+}
+
+.lobbyCapsule>div {
+    height: 100px;
+}
+
+.lobbyCapsule>div>div {
+    height: 80px !important;
+}
+
+.animated-element-bottom {
+    width: 250px;
+    height: 50px;
+
+    position: relative;
+    top: -50px;
+
+    transition: top 1s;
+
+    background-color: #E9C46A;
+    color: #E9C46A;
+}
+
+.animated-element-top {
+    width: 250px;
+    height: 50px;
+
+    position: relative;
+    bottom: -50px;
+
+    transition: bottom 1s;
+
+    background-color: #E9C46A;
+    color: black;
+}
+
+.lobbyCapsule:hover .animated-element-bottom {
+    top: 0px;
+}
+
+.lobbyCapsule:hover .animated-element-top {
+    bottom: 0px;
+}

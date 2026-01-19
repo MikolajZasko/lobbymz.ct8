@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>02v-for</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            /* text-align: center; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app">
+        <ul>
+            <li v-for="item in array">{{item}}</li>
+        </ul>
+        <ul>
+            <li v-for="item in array">{{item.a + item.b}} {{item.b}}</li>
+        </ul>
+        <ul>
+            <li v-for="(item,i) in array">{{i}}: {{item.a}} {{item.b}}</li>
+        </ul>
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+
+            data() {
+                return {
+                    array: [{ a: 1, b: 4 }, { a: 2, b: 5 }, { a: 3, b: 6 }]
+                }
+            }
+
+
+        })
+        app.config.productionTip = false; // Disable development tip
+
+        app.mount("#app")
+    </script>
+</body>
+
+</html>

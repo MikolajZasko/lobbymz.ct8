@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dratewka the Game</title>
+    <link rel="stylesheet" href="./css.css">
+    <script type="module" src="./js.js"></script>
+  
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+  
+</head>
+
+<body>
+    <p id="title">test</p>
+    <div id="images">
+        <img src="./Dratewka/img/47.gif" alt="loactionImage" id="loactionImage">
+        <img src="./Dratewka/img/kompas.bmp" alt="windRose" id="windRose">
+        <div id="cw" class="cover"></div>
+        <div id="cn" class="cover"></div>
+        <div id="cs" class="cover"></div>
+        <div id="ce" class="cover"></div>
+    </div>
+    <div id="mainGame">
+        <p id="direction"></p>
+        <p id="see">You can see <b id="items"></b></p>
+        <p>You are carrying <b id="carry"></b></p>
+        <br>
+        <div id="consoleDiv">
+            What now? <input tabindex="1" type="text" id="console" name="console" autofocus onblur="this.focus()"
+                style="text-transform: uppercase"><span id="cursor"
+                style="left: 300px; animation: blink 1s step-end infinite;">&nbsp;</span>
+        </div>
+    </div>
+    <div id="vocabulary" style="display: none;">
+        <p>
+            NORTH or N, SOUTH or S<br>
+            WEST or W, EAST or E<br>
+            TAKE (object) or T (object)<br>
+            DROP (object) or D (object)<br>
+            USE (object) or U (object)<br>
+            GOSSIPS or G, VOCABULARY or V<br>
+            <br>
+            Press any key
+        </p>
+    </div>
+    <div id="gossips" style="display: none;">
+        <p>
+            The woodcutter lost his home key...<br>
+            The butcher likes fruit... The cooper<br>
+            is greedy... Dratewka plans to make a<br>
+            poisoned bait for the dragon... The<br>
+            tavern owner is buying food from the<br>
+            pickers... Making a rag from a bag...<br>
+            <br>
+            Press any key
+        </p>
+    </div>
+    <img src="introPhotos/1.webp" alt="bigPhoto" id="bigPhoto">
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <title>01objectInContainer</title>
+    <script src="../libs/three.js"></script>
+    <script src="../libs/jq.js"></script>
+    <script src="../js/Test.js"></script>
+    <script src="../js/cube.js"></script>
+    <script src="../js/container.js"></script>
+    <script src="skrypty/script1.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            /* text-align: center; */
+        }
+
+        /* h1 {
+            text-align: center;
+        } */
+
+        h2 {
+            text-align: center;
+            font-size: 500px;
+            font-weight: 900;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="junk">
+        <h1>01objectInContainer</h1>
+        <form action="../handleForm" method="get" id="ranges">
+            <label for="cubeX">cubeX</label>
+            <input type="range" min="-50" max="50" width="100px" class="onInput" id="cubeX" name="cubeX" value="0">
+            <label for="objectY">objectY</label>
+            <input type="range" min="0" max="50" width="100px" class="onInput" id="objectY" name="objectY" value="0">
+        </form>
+    </div>
+
+    <div id="root"></div>
+</body>
+
+</html>

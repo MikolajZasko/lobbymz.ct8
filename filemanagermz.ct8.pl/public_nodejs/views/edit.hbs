@@ -1,0 +1,35 @@
+<style>
+    body {
+        overflow: hidden;
+    }
+</style>
+
+<script src="../js/textEditor.js"></script>
+
+<div id="main" class="editMain">
+    <div id="left" style="display: flex; flex-direction: column">
+        <button onclick="fontDown()">font-</button>
+        <button onclick="color()">color</button>
+        <button onclick="fontUp()">font+</button>
+        <button onclick="changeFileName()">changeFileName</button>
+    </div>
+    <div id="right">
+        <div id="header">{{fileRoot}}</div>
+        <div id="textEditor">
+            <div id="lineCounter"></div>
+            <textarea name="textarea" id="textarea" rows="1">{{innerText}}</textarea>
+        </div>
+        <button onclick="sendAndSave()" class="niceButton" id="sendAndSave">sendAndSave</button>
+    </div>
+</div>
+
+<dialog id="dialogRename">
+    <form action='/changeFileName' method="post">
+        <label for='name'>new fileName<b style="font-size: 20px;">{{fileName}}</b></label>
+        <input type='text' id='name' name='name'>
+        <button type='submit'>ok</button>
+        <button type='button' class='cancel'>cancel</button>
+        <input class="hidden" type="text" name="file" value="{{fileRoot}}" />
+        <input class="hidden" type="text" name="root" value="{{root}}" />
+    </form>
+</dialog>

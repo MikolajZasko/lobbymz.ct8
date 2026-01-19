@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10scaleManyFigures_v2</title>
+    <script src="../libs/three.js"></script>
+    <script src="../libs/jq.js"></script>
+    <script src="skrypty/script10.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #comment {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #row {
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        #row>input {
+            padding: 6px 10px;
+            margin: 10px;
+            background-color: orange;
+            border: 2px solid blue;
+            color: blue;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            /* width: 150px; */
+        }
+
+        #row>label {
+            padding: 6px 10px;
+            background-color: orange;
+            border: 2px solid blue;
+            color: blue;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+
+            user-select: none;
+
+            text-align: center;
+            margin: auto 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="comment">
+        <h1>10scaleManyFigures_v2</h1>
+        <div id="row">
+            <label for="fov">fov</label>
+            <input type="range" id="fov" value="90" min="0" max="180">
+            <label for="y">y offset</label>
+            <input type="range" id="y" value="0" min="-100" max="100">
+            <label for="count">count</label>
+            <input type="range" id="count" value="3" min="3" max="10">
+        </div>
+        <pre id="pre"></pre>
+    </div>
+
+    <div id="root"></div>
+</body>
+
+</html>
