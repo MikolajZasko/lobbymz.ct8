@@ -86,6 +86,12 @@ h4 {
     align-items: center;
 }
 
+.container_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .projectDescription {
     background-color: rgb(5, 142, 217);
     border-radius: 20px 0;
@@ -104,4 +110,14 @@ h4 {
 .linkToProject:hover {
     background-color: rgb(221, 252, 116);
     color: black;
+}
+
+#worth_box {
+    margin: 20px;
+    padding: 10px 25px;
+    border-radius: 10px;
+
+    background-color: #a6f2f1;
+
+    font-weight: bold;
 }
